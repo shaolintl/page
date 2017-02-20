@@ -3,19 +3,38 @@ layout: default
 title: Tomer Libal's homepage
 ---
 
-	<!-- +++++ Welcome Section +++++ -->
-	<div id="ww">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 centered">
-					<img src="assets/img/user.png" alt="Tomer">
-					<h1>Hi, I am Tomer</h1>
-          <p>Welcome to my home page! My name is Tomer Libal and I am a researcher and instructor in Computer Science</p>
-          <p>Here you will find information and resources about my work, such as drafts of publications, links to
-          my courses and some slides of my talks<p>
-          <p>Enjoy your stay!</p>
-				</div><!-- /col-lg-8 -->
-			</div><!-- /row -->
-	    </div> <!-- /container -->
-	</div><!-- /ww -->
+<!-- +++++ Welcome Section +++++ -->
+<div id="ww">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 centered">
+        <h1>Welcome</h1>
+        <p>Welcome to my home page! My name is Tomer Libal and I am a researcher and instructor in Computer Science</p>
+        <p>Here you will find information and resources about my work, such as drafts of publications, links to
+        my courses and some slides of my talks<p>
+      </div><!-- /col-lg-8 -->
+    </div><!-- /row -->
+
+    <!-- +++++ News Section +++++ -->
+
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8 offset-md-2">
+        <div class="row">
+          <div class="col-xs-12">
+            <ul class="news list-group">
+              {% for post in site.categories.news %}
+              <li class="news-item list-group-item"><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div> <!-- /container -->
+</div><!-- /ww -->
+
 
