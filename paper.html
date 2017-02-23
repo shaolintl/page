@@ -8,10 +8,12 @@ id: 1
 <div class="container">
 
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 centered">
+      <div class="col-lg-10 col-lg-offset-1">
         <h1>{{page.title}}</h1>
     {% for paper in site.categories.papers %}
 <article class="publication">
+<span class="publish-date">
+    {{paper.year}} 	</span>
 	<h5>
     <a href="{{paper.url}}">
       {{paper.title}}		</a>
@@ -19,17 +21,9 @@ id: 1
 
 			<span class="associated-people">
         {{paper.people}} 		</span>
-      <br/>
-			<span class="venue">
-        {{paper.venue}} 		</span>
-	<span class="publish-date">
-    {{paper.year}} 	</span>
-  <br/>
-			<span class="publication-link">
-        <a href="{{paper.url}}">View abstract</a>, 		</span>
 
 			<span class="download-link">
-        <a href="/assets/papers/{{paper.draft}}">Download PDF</a>		</span>
+        <a href="/assets/papers/{{paper.draft}}">[ PDF ]</a>		</span>
 
 	</article>
     {% endfor %}

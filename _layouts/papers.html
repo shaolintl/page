@@ -49,8 +49,10 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 centered">
-        <h1>{{page.title}}</h1>
-        <h2>Abstract</h2>
+        <h1 class="abstract-title">{{page.title}}</h1>
+        <div class="abstract-venue">{{page.venue}}</div>
+        <div class="abstract-place">{{page.city}}</div>
+        <h2 class="abstract-abstract">Abstract</h2>
         <p>
         {{ content }}
         </p>
@@ -64,18 +66,5 @@
     <script src="/assets/js/bootstrap.js"></script>
     <script src="/assets/js/hover.zoom.js"></script>
     <script src="/assets/js/hover.zoom.conf.js"></script>
-    <script src="/assets/js/newsbox.js"></script>
-    <script type="text/javascript">
-      $(function () {
-        $(".news").bootstrapNews({
-          newsPerPage: 3,
-          autoplay: true,
-          pauseOnHover:true,
-          direction: 'up',
-          newsTickerInterval: 4000,
-          navigation: false,
-        });
-      });
-    </script>
   </body>
 </html>

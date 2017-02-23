@@ -114,7 +114,7 @@ a:after {
 }
 
 .navbar-item {
-	font-size: 22px;
+	font-size: 18px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -252,11 +252,27 @@ bt {
     list-style:none;
 }
 
+.news-items
+{
+  text-align: left;
+}
+
 .news-item
 {
     background-color:white;
-    font-size:20px;
-    padding:4px 4px;
-    margin:0px;
-    border-bottom:1px dotted #555;
+}
+
+article
+{
+  text-align: left;
+}
+
+.publication h5
+{
+  display:inline;font-weight:700;
+}
+
+.publish-date
+{
+  font-weight: bold;
 }
