@@ -8,7 +8,7 @@ title: Tomer Libal's homepage
   <div class="container">
 
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 centered">
+      <div class="col-xs-8 col-xs-offset-2 centered">
         <h1>Welcome</h1>
         <p>Welcome to my home page! My name is Tomer Libal and I am a researcher and instructor in Computer Science</p>
         <p>Here you will find information and resources about my work, such as drafts of publications, links to
@@ -17,8 +17,12 @@ title: Tomer Libal's homepage
     </div><!-- /row -->
 
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 centered">
+      <div class="col-xs-2 col-xs-offset-2">
         <h3>Events</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-2 centered">
             <ul class="news-items list-group">
               {% for post in site.categories.news %}
               {% if forloop.index0 <= 4 %}
@@ -26,9 +30,13 @@ title: Tomer Libal's homepage
               {% endif %}
               {% endfor %}
             </ul>
-        <a href="events.html">more</a>
       </div><!-- /col-lg-8 -->
     </div><!-- /row -->
+    <div class="row">
+      <div class="col-md-2 col-md-offset-9">
+        <a  href="events.html">more</a>
+      </div>
+    </div>
 
 
     <!-- +++++ News Section +++++ -->
