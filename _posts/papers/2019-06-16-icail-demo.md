@@ -3,8 +3,7 @@ layout: papers
 categories: papers
 title: NAI – The Normative Reasoner
 year: 2019
-venue: the International Conference on Artificial Intelligence and Law
-(ICAIL)
+venue: the International Conference on Artificial Intelligence and Law (ICAIL)
 people: Tomer Libal, Alexander Steen
 draft: icail-demo-2019.pdf
 ---
