@@ -9,9 +9,18 @@ id: 1
 
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1">
-        <h1>{{page.title}}</h1>
+
+      <h1>{{page.title}}</h1>
     {% for paper in site.categories.papers %}
 <article class="publication">
+      <span class="image" style="width: 15px;float: left;"> &nbsp;
+        {% if paper.img-src %}
+        <img src=assets/img/{{paper.img-src}} alt="{{paper.img-title}}" title="{{paper.img-title}}"  style="height: 1.2em;"/>
+        {% endif %}
+      </span>
+
+
+
 <span class="publish-date">
     {{paper.year}} 	</span>
 	<h5>
@@ -24,11 +33,6 @@ id: 1
 
 			<span class="download-link">
         <a href="/assets/papers/{{paper.draft}}">[ PDF ]</a>		</span>
-
-      <span class="image">
-        {% if paper.img-src %}
-        <img src=assets/img/{{paper.img-src}} alt="{{paper.img-title}}" title="{{paper.img-title}}"  style="height: 1.2em;"/>
-        {% endif %}
 
 	</article>
     {% endfor %}
