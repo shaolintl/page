@@ -32,7 +32,12 @@ id: 1
         {{paper.people}} 		</span>
 
 			<span class="download-link">
-        <a href="/assets/papers/{{paper.draft}}">[ PDF ]</a>		</span>
+        {% if paper.original %}
+          <a href="{{paper.original}}">[ ORIGINAL ]</a>		</span>
+        {% else %}
+          <a href="/assets/papers/{{paper.draft}}">[ DRAFT ]</a>		</span>
+        {% endif %}
+
 
 	</article>
     {% endfor %}
