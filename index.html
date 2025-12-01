@@ -6,8 +6,83 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Tomer Libal</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <!--
+      Search engines use the meta description as a summary of the page.  A concise,
+      human‑readable description helps improve click‑through rates and provides
+      context for users.  According to Google’s documentation, each page should
+      have its own unique description that summarizes the page contents【315620209669752†L444-L551】.
+    -->
+    <meta name="description" content="Personal website of Tomer Libal – researcher and instructor in AI and Law at the University of Luxembourg and American University of Paris.  Explore his biography, funded projects, publications, media appearances and contact details.">
+
+    <!-- Explicitly allow indexing and following of links -->
+    <meta name="robots" content="index, follow">
+
+    <!--
+      The keywords meta tag is not a ranking factor for major search engines,
+      but including a reasonable list of topical keywords can help with some
+      legacy crawlers.  Keywords should be relevant to the page content.
+    -->
+    <meta name="keywords" content="Tomer Libal, AI and Law, Artificial Intelligence, Legal Informatics, University of Luxembourg, Enidia AI, ExAIle project, PaCT, iComplai, researcher, instructor">
+
+    <!--
+      Canonical URL: specify the preferred version of this page.  Google
+      recommends using absolute URLs and adding a canonical link to avoid
+      duplicate content across HTTP and HTTPS variants【907349186755908†L562-L606】.
+    -->
+    <link rel="canonical" href="https://tomer.libal.info/" />
+
+    <!--
+      Open Graph metadata improves how the page is previewed when shared on
+      social media.  Titles should be under roughly 60 characters and
+      descriptions under 65 characters for optimal display【784013264876205†L592-L616】.
+    -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tomer Libal – AI & Law Researcher">
+    <meta property="og:description" content="Discover the work and projects of Tomer Libal, AI and Law researcher and instructor.">
+    <meta property="og:url" content="https://tomer.libal.info/">
+    <meta property="og:site_name" content="Tomer Libal">
+    <meta property="og:image" content="https://tomer.libal.info/assets/img/profile-img.jpg">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="800">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card metadata for better integration with Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tomer Libal – AI & Law Researcher">
+    <meta name="twitter:description" content="Personal website of Tomer Libal showcasing his research, teaching and media.">
+    <meta name="twitter:image" content="https://tomer.libal.info/assets/img/profile-img.jpg">
+
+    <!--
+      Person structured data provides search engines with machine‑readable
+      information about the person represented by the site.  Using JSON‑LD
+      schema.org markup is recommended【718454323233736†L47-L82】.
+    -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Tomer Libal",
+      "jobTitle": "Research scientist and assistant professor",
+      "affiliation": [
+        {"@type": "Organization", "name": "University of Luxembourg"},
+        {"@type": "Organization", "name": "American University of Paris"},
+        {"@type": "Organization", "name": "Enidia AI"}
+      ],
+      "worksFor": [
+        {"@type": "Organization", "name": "University of Luxembourg"},
+        {"@type": "Organization", "name": "American University of Paris"},
+        {"@type": "Organization", "name": "Enidia AI"}
+      ],
+      "url": "https://tomer.libal.info/",
+      "image": "https://tomer.libal.info/assets/img/profile-img.jpg",
+      "sameAs": [
+        "https://dblp.org/pid/61/8336.html",
+        "https://scholar.google.com/citations?user=f-MQc4MAAAAJ&hl=en",
+        "https://orcid.org/0000-0003-3261-0180",
+        "https://www.linkedin.com/in/tomer-libal-aba39a121/"
+      ]
+    }
+    </script>
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
@@ -44,7 +119,8 @@
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex flex-column justify-content-center">
 
-      <nav id="navbar" class="navbar nav-menu">
+      <!-- Provide an aria-label so screen readers can identify this navigation section -->
+      <nav id="navbar" class="navbar nav-menu" aria-label="Primary navigation">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
@@ -63,10 +139,11 @@
         <h1>Tomer Libal</h1>
         <p>AI and Law <span class="typed" data-typed-items="Researcher, Instructor"></span></p>
         <div class="social-links">
-          <a href="https://dblp.org/pid/61/8336.html"><img src="assets/img/DBLP.png"/></a>
-          <a href="https://scholar.google.com/citations?user=f-MQc4MAAAAJ&hl=en"><img src="assets/img/GS.png"/></a>
-          <a href="https://orcid.org/0000-0003-3261-0180"><img src="assets/img/ORCID.png"/></a>
-          <a href="https://www.linkedin.com/in/tomer-libal-aba39a121/"><img src="assets/img/LI.png"/></a>
+          <!-- Social profile icons: provide meaningful alternative text for screen readers【570671193418183†L742-L779】 -->
+          <a href="https://dblp.org/pid/61/8336.html"><img src="assets/img/DBLP.png" alt="DBLP profile"></a>
+          <a href="https://scholar.google.com/citations?user=f-MQc4MAAAAJ&hl=en"><img src="assets/img/GS.png" alt="Google Scholar profile"></a>
+          <a href="https://orcid.org/0000-0003-3261-0180"><img src="assets/img/ORCID.png" alt="ORCID profile"></a>
+          <a href="https://www.linkedin.com/in/tomer-libal-aba39a121/"><img src="assets/img/LI.png" alt="LinkedIn profile"></a>
         </div>
       </div>
     </section><!-- End Hero -->
@@ -256,9 +333,10 @@
                 <h4><a href="">Publications</a></h4>
                 <p>I have authored or co-authored with one other researcher 26 peer-reviewed papers in journals such as Frontiers in Artificial Intelligence, Annals of Mathematics and Artificial Intelligence and conferences such as the International Conference on Artificial Intelligence and Law and the International Conference on Legal Knowledge and Information Systems. </p>
                 <div class="social-links">
-                  <a href="https://dblp.org/pid/61/8336.html"><img src="assets/img/DBLP.png"/></a>
-                  <a href="https://scholar.google.com/citations?user=f-MQc4MAAAAJ&hl=en"><img src="assets/img/GS.png"/></a>
-                  <a href="https://orcid.org/0000-0003-3261-0180"><img src="assets/img/ORCID.png"/></a>
+                  <!-- Repeated social profile icons (publications section) with alt text -->
+                  <a href="https://dblp.org/pid/61/8336.html"><img src="assets/img/DBLP.png" alt="DBLP profile"></a>
+                  <a href="https://scholar.google.com/citations?user=f-MQc4MAAAAJ&hl=en"><img src="assets/img/GS.png" alt="Google Scholar profile"></a>
+                  <a href="https://orcid.org/0000-0003-3261-0180"><img src="assets/img/ORCID.png" alt="ORCID profile"></a>
                 </div>
               </div>
             </div>
@@ -345,7 +423,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/research_lux.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/research_lux.jpg" class="img-fluid" alt="Conversation with Research Luxembourg about AI supporting the legal profession">
                 <div class="portfolio-info">
                   <h4>Conversation with Research Luxembourg</h4>
                   <p>Supporting the legal profession by exploring the potential of AI</p>
@@ -359,7 +437,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/science_lux_de.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/science_lux_de.jpg" class="img-fluid" alt="Interview on science.lu (German) about how artificial intelligence changes the legal system">
                 <div class="portfolio-info">
                   <h4>Ein Gespräch mit science.lu</h4>
                   <p>Wie Künstliche Intelligenz das Rechtssystem verändert</p>
@@ -373,7 +451,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/science_lux_fr.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/science_lux_fr.jpg" class="img-fluid" alt="Interview on science.lu (French) about AI transforming the legal system">
                 <div class="portfolio-info">
                   <h4>Un entretien avec science.lu</h4>
                   <p>Comment l'intelligence artificielle transforme le système juridique</p>
@@ -386,7 +464,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/science_lux_gdpr_de.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/science_lux_gdpr_de.jpg" class="img-fluid" alt="Feature on science.lu about the EU AI Act and its impact on research and innovation">
                 <div class="portfolio-info">
                   <h4>Der EU AI Act: Motor oder Bremse für Forschung und Innovation?</h4>
                   <p>Das erste Gesetz weltweit zur Regulierung Künstlicher Intelligenz ist auf dem Weg: der EU AI Act der Europäischen Union. Drei wissenschaftliche Experten erläutern, was sie von dem Regelwerk halten</p>
@@ -399,7 +477,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/silicon_elevator.png" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/silicon_elevator.png" class="img-fluid" alt="RTL’s The Elevator episode featuring Tomer Libal pitching Enidia AI">
                 <div class="portfolio-info">
                   <h4>The Elevator 30: Tomer Libal, Founder of Enidia AI</h4>
                   <p>Pitching Enidia.ai in an RTL "The Elevator" episode</p>
@@ -412,7 +490,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/wort24.png" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/wort24.png" class="img-fluid" alt="Wort article on future mobility and autonomous cars featuring expert input">
                 <div class="portfolio-info">
                   <h4>Mobilität der Zukunft: Was noch fehlt, bis Autos selbst fahren</h4>
                   <p>Advising on the use of symbolic AI in Autonomous Cars for an article in the Wort</p>
@@ -425,7 +503,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/exaile24.png" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/exaile24.png" class="img-fluid" alt="Launch of AI legal assistant for patent law at the University of Luxembourg">
                 <div class="portfolio-info">
                   <h4>AI-legal assistant for Patent Law launched at University of Luxembourg</h4>
                   <p>Releasing an access-to-justice assistant</p>
@@ -438,7 +516,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/wire24.png" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/wire24.png" class="img-fluid" alt="Article discussing whether the AI hallucination problem has been solved">
                 <div class="portfolio-info">
                   <h4>Has the Hallucination Problem Been Solved?</h4>
                   <p>Talking about the hallucination problem</p>
@@ -451,7 +529,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/techtalk24.png" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/techtalk24.png" class="img-fluid" alt="LegalTech talk on launching an AI legal assistant for patent law at the University of Luxembourg">
                 <div class="portfolio-info">
                   <h4>AI-legal assistant for Patent Law launched at University of Luxembourg</h4>
                   <p>LegalTech Talks about the release of the legal assisant in the university of Luxembourg</p>
@@ -464,7 +542,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/dla24.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/dla24.jpg" class="img-fluid" alt="Invited panel speaker on digital transformation in law firms at DLA Piper’s IP conference">
                 <div class="portfolio-info">
                   <h4>AI Expert for Digital Transformation in Law Firms</h4>
                   <p>Invited Speaker on DLA Piper annual IP conference</p>
@@ -477,7 +555,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/silicon24.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/silicon24.jpg" class="img-fluid" alt="State of AI 2024 panel hosted by Silicon Luxembourg and Simmons & Simmons">
                 <div class="portfolio-info">
                   <h4>Expert for Technical Aspects of AI</h4>
                   <p>Invited Speaker on Silicon Luxembourg and Simmons & Simmons State of AI Panel</p>
@@ -490,7 +568,7 @@
             </div>
 	    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/irina.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/irina.jpg" class="img-fluid" alt="Website of Baroque soprano singer Irina Kalderon Libal">
                 <div class="portfolio-info">
                   <h4>The website of my wife, a Baroque Sopran singer</h4>
                   <div class="portfolio-links">
@@ -677,10 +755,11 @@
       <div class="container">
         <h3>Tomer Libal</h3>
         <div class="social-links">
-          <a href="https://dblp.org/pid/61/8336.html"><img src="assets/img/DBLP.png"/></a>
-          <a href="https://scholar.google.com/citations?user=f-MQc4MAAAAJ&hl=en"><img src="assets/img/GS.png"/></a>
-          <a href="https://orcid.org/0000-0003-3261-0180"><img src="assets/img/ORCID.png"/></a>
-          <a href="https://www.linkedin.com/in/tomer-libal-aba39a121/"><img src="assets/img/LI.png"/></a>
+          <!-- Footer social profile icons with alt text -->
+          <a href="https://dblp.org/pid/61/8336.html"><img src="assets/img/DBLP.png" alt="DBLP profile"></a>
+          <a href="https://scholar.google.com/citations?user=f-MQc4MAAAAJ&hl=en"><img src="assets/img/GS.png" alt="Google Scholar profile"></a>
+          <a href="https://orcid.org/0000-0003-3261-0180"><img src="assets/img/ORCID.png" alt="ORCID profile"></a>
+          <a href="https://www.linkedin.com/in/tomer-libal-aba39a121/"><img src="assets/img/LI.png" alt="LinkedIn profile"></a>
         </div>
         <div class="copyright">
           &copy; Copyright <strong><span>Tomer Libal</span></strong>. All Rights Reserved
