@@ -79,6 +79,18 @@
       .about-lead { text-align: justify; }
       .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
       .badge-skill { background: #eef6fb; color: #1f6f99; border: 1px solid #cfe6f3; padding: 4px 10px; border-radius: 4px; font-size: 13px; }
+      .hiw-example { background: #fff; border: 1px solid #e6eaee; border-radius: 10px; padding: 30px 30px 24px; margin-bottom: 40px; box-shadow: 0 2px 14px rgba(0,0,0,0.05); }
+      .hiw-title { font-size: 19px; font-weight: 700; color: #0f2c40; margin-bottom: 10px; }
+      .hiw-intro { color: #5a6570; font-size: 15px; line-height: 1.6; margin-bottom: 24px; max-width: 920px; }
+      .hiw-col { margin-bottom: 14px; }
+      .hiw-label { display: inline-block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 3px 12px; border-radius: 20px; margin-bottom: 12px; }
+      .hiw-label.problem { background: #fdeaea; color: #c0392b; }
+      .hiw-label.approach { background: #e7f4ec; color: #1e7e45; }
+      .hiw-img { border: 1px solid #e6eaee; border-radius: 6px; width: 100%; }
+      .hiw-caption { color: #7a838c; font-size: 13px; margin-top: 12px; }
+      .hiw-result { margin-top: 22px; background: #eef6fb; border-left: 4px solid #149ddd; padding: 13px 18px; font-size: 14px; color: #22404f; border-radius: 4px; }
+      .hiw-result strong { color: #0f5e80; }
+      .hiw-credit { text-align: center; color: #5a6570; font-size: 14px; margin-top: 4px; }
     </style>
 
     <!-- =======================================================
@@ -360,46 +372,48 @@
 
           <div class="section-title">
             <h2>How It Works</h2>
-            <p>Two examples of how I approach a hard problem. Illustrative, not my only work.</p>
+            <p>Verification-first AI in practice. Two problems, and how we solve them, built with my partners at Enidia.</p>
           </div>
 
           <!-- Example 1: Legal -->
-          <div class="row">
-            <div class="col-12">
-              <h3 class="resume-title">Legal: restrictions hidden in a 100-page agreement</h3>
-              <p class="about-lead">Ask generic AI to list the restrictions in a fund's partnership agreement and it answers in seconds, confidently. The trouble is what a reviewer cannot see: it can invent a limit that is not there, and silently miss ones that are. My verification-first approach shows every answer on its own source page, says "not found" instead of guessing, and scans the whole document for what was missed. At Enidia we put this into production and cut a review from about 25 hours to about 4.</p>
+          <div class="hiw-example" data-aos="fade-up">
+            <h3 class="hiw-title">Legal: restrictions hidden in a 100-page agreement</h3>
+            <p class="hiw-intro">Ask generic AI to list the restrictions in a fund's partnership agreement and it answers in seconds, confidently. The danger is what a reviewer cannot see: it can invent a limit that is not there, and silently miss ones that are.</p>
+            <div class="row align-items-start">
+              <div class="col-md-6 hiw-col">
+                <span class="hiw-label problem">The problem</span>
+                <a href="assets/img/howitworks/law_problem.png" target="_blank" rel="noopener"><img src="assets/img/howitworks/law_problem.png" class="hiw-img" alt="Generic AI confidently fabricates and omits restrictions in a legal agreement"></a>
+                <p class="hiw-caption">Generic AI: confident, but wrong.</p>
+              </div>
+              <div class="col-md-6 hiw-col">
+                <span class="hiw-label approach">The approach</span>
+                <a href="assets/img/howitworks/law_solution.png" target="_blank" rel="noopener"><img src="assets/img/howitworks/law_solution.png" class="hiw-img" alt="Verification-first answer showing each restriction on its source page and flagging what to review"></a>
+                <p class="hiw-caption">Every answer shown on its source, gaps surfaced.</p>
+              </div>
             </div>
-            <div class="col-md-6" data-aos="fade-up">
-              <a href="assets/img/howitworks/law_problem.png" target="_blank" rel="noopener"><img src="assets/img/howitworks/law_problem.png" class="img-fluid" style="border:1px solid #e6eaee;border-radius:6px;" alt="Generic AI confidently fabricates and omits restrictions in a legal agreement"></a>
-              <p class="text-center mt-2"><em>The problem: confident, but wrong</em></p>
-            </div>
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-              <a href="assets/img/howitworks/law_solution.png" target="_blank" rel="noopener"><img src="assets/img/howitworks/law_solution.png" class="img-fluid" style="border:1px solid #e6eaee;border-radius:6px;" alt="Verification-first answer showing each restriction on its source page and flagging what to review"></a>
-              <p class="text-center mt-2"><em>The approach: every answer shown on its source, gaps surfaced</em></p>
-            </div>
+            <div class="hiw-result"><strong>Result:</strong> in production at a client firm, a review cut from about 25 hours to about 4.</div>
           </div>
 
           <!-- Example 2: Funds -->
-          <div class="row" style="margin-top:26px;">
-            <div class="col-12">
-              <h3 class="resume-title">Funds: share classes buried in a 200-page prospectus</h3>
-              <p class="about-lead">The same failure mode runs across regulated documents. Asked to extract a fund's share classes from a long prospectus, generic AI returns a tidy list that looks right and is not: a class that does not exist, two real ones missing. The same approach verifies every extracted class against the source, cross-checks the ISINs so nothing is dropped, and catches the hallucination, giving a complete picture with no manual re-checking.</p>
+          <div class="hiw-example" data-aos="fade-up">
+            <h3 class="hiw-title">Funds: share classes buried in a 200-page prospectus</h3>
+            <p class="hiw-intro">The same failure mode runs across regulated documents. Asked to extract a fund's share classes from a long prospectus, generic AI returns a tidy list that looks right and is not: a class that does not exist, two real ones missing.</p>
+            <div class="row align-items-start">
+              <div class="col-md-6 hiw-col">
+                <span class="hiw-label problem">The problem</span>
+                <a href="assets/img/howitworks/funds_problem.png" target="_blank" rel="noopener"><img src="assets/img/howitworks/funds_problem.png" class="hiw-img" alt="Generic AI fabricates and omits share classes from a fund prospectus"></a>
+                <p class="hiw-caption">Four classes that all look identical.</p>
+              </div>
+              <div class="col-md-6 hiw-col">
+                <span class="hiw-label approach">The approach</span>
+                <a href="assets/img/howitworks/funds_solution.png" target="_blank" rel="noopener"><img src="assets/img/howitworks/funds_solution.png" class="hiw-img" alt="Verification-first answer confirming each share class against the source and catching a hallucination"></a>
+                <p class="hiw-caption">Each class verified, the missing ones caught.</p>
+              </div>
             </div>
-            <div class="col-md-6" data-aos="fade-up">
-              <a href="assets/img/howitworks/funds_problem.png" target="_blank" rel="noopener"><img src="assets/img/howitworks/funds_problem.png" class="img-fluid" style="border:1px solid #e6eaee;border-radius:6px;" alt="Generic AI fabricates and omits share classes from a fund prospectus"></a>
-              <p class="text-center mt-2"><em>The problem: four classes that all look identical</em></p>
-            </div>
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-              <a href="assets/img/howitworks/funds_solution.png" target="_blank" rel="noopener"><img src="assets/img/howitworks/funds_solution.png" class="img-fluid" style="border:1px solid #e6eaee;border-radius:6px;" alt="Verification-first answer confirming each share class against the source and catching a hallucination"></a>
-              <p class="text-center mt-2"><em>The approach: each class verified, missing ones caught</em></p>
-            </div>
+            <div class="hiw-result"><strong>Result:</strong> a complete picture, hallucination caught, no manual re-checking.</div>
           </div>
 
-          <div class="row">
-            <div class="col-12">
-              <p style="text-align:center;color:#5a6570;font-size:14px;margin-top:14px;">Both examples were built at <a href="https://www.enidia.ai/">Enidia AI</a>, the company I co-founded, together with my partners.</p>
-            </div>
-          </div>
+          <p class="hiw-credit">Both examples were built at <a href="https://www.enidia.ai/">Enidia AI</a>, the company I co-founded, together with my partners.</p>
 
         </div>
       </section><!-- End How It Works Section -->
