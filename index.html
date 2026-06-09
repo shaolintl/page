@@ -5,72 +5,41 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Tomer Libal</title>
-    <!--
-      Search engines use the meta description as a summary of the page.  A concise,
-      human‑readable description helps improve click‑through rates and provides
-      context for users.  According to Google’s documentation, each page should
-      have its own unique description that summarizes the page contents【315620209669752†L444-L551】.
-    -->
-    <meta name="description" content="Personal website of Tomer Libal – researcher and instructor in AI and Law at the University of Luxembourg and American University of Paris.  Explore his biography, funded projects, publications, media appearances and contact details.">
+    <title>Tomer Libal | Compliance-Grade AI for Regulated Industries</title>
+    <meta name="description" content="Tomer Libal builds verification-first, compliance-grade AI for legal and financial institutions: on-premise LLM pipelines that respect GDPR and the EU AI Act, plus training that helps teams actually adopt AI.">
 
-    <!-- Explicitly allow indexing and following of links -->
     <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Tomer Libal, AI consultant, on-premise LLM, compliance AI, GDPR AI, EU AI Act, verification-first AI, legal AI, financial AI, AI training, RAG, Enidia AI, Luxembourg">
 
-    <!--
-      The keywords meta tag is not a ranking factor for major search engines,
-      but including a reasonable list of topical keywords can help with some
-      legacy crawlers.  Keywords should be relevant to the page content.
-    -->
-    <meta name="keywords" content="Tomer Libal, AI and Law, Artificial Intelligence, Legal Informatics, University of Luxembourg, Enidia AI, ExAIle project, PaCT, iComplai, researcher, instructor">
-
-    <!--
-      Canonical URL: specify the preferred version of this page.  Google
-      recommends using absolute URLs and adding a canonical link to avoid
-      duplicate content across HTTP and HTTPS variants【907349186755908†L562-L606】.
-    -->
     <link rel="canonical" href="https://tomer.libal.info/" />
 
-    <!--
-      Open Graph metadata improves how the page is previewed when shared on
-      social media.  Titles should be under roughly 60 characters and
-      descriptions under 65 characters for optimal display【784013264876205†L592-L616】.
-    -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Tomer Libal – AI & Law Researcher">
-    <meta property="og:description" content="Discover the work and projects of Tomer Libal, AI and Law researcher and instructor.">
+    <meta property="og:title" content="Tomer Libal | Compliance-Grade AI for Regulated Industries">
+    <meta property="og:description" content="Verification-first, on-premise AI for legal and financial institutions, plus training that helps teams adopt it.">
     <meta property="og:url" content="https://tomer.libal.info/">
-    <meta property="og:site_name" content="Tomer Libal">
+    <meta property="og:site_name" content="Tomer Libal">
     <meta property="og:image" content="https://tomer.libal.info/assets/img/profile-img.jpg">
     <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="800">
     <meta property="og:locale" content="en_US">
 
-    <!-- Twitter Card metadata for better integration with Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tomer Libal – AI & Law Researcher">
-    <meta name="twitter:description" content="Personal website of Tomer Libal showcasing his research, teaching and media.">
+    <meta name="twitter:title" content="Tomer Libal | Compliance-Grade AI for Regulated Industries">
+    <meta name="twitter:description" content="Verification-first, on-premise AI for legal and financial institutions, plus training that helps teams adopt it.">
     <meta name="twitter:image" content="https://tomer.libal.info/assets/img/profile-img.jpg">
 
-    <!--
-      Person structured data provides search engines with machine‑readable
-      information about the person represented by the site.  Using JSON‑LD
-      schema.org markup is recommended【718454323233736†L47-L82】.
-    -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Tomer Libal",
-      "jobTitle": "Research scientist and assistant professor",
+      "jobTitle": "Founder and AI consultant, verification-first AI systems for regulated industries",
       "affiliation": [
-        {"@type": "Organization", "name": "University of Luxembourg"},
-        {"@type": "Organization", "name": "American University of Paris"},
-        {"@type": "Organization", "name": "Enidia AI"}
+        {"@type": "Organization", "name": "Enidia AI"},
+        {"@type": "Organization", "name": "Digital Learning Hub"},
+        {"@type": "Organization", "name": "House of Training"}
       ],
       "worksFor": [
-        {"@type": "Organization", "name": "University of Luxembourg"},
-        {"@type": "Organization", "name": "American University of Paris"},
         {"@type": "Organization", "name": "Enidia AI"}
       ],
       "url": "https://tomer.libal.info/",
@@ -102,9 +71,18 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <!-- Forward-looking additions -->
+    <style>
+      #hero .hero-tagline { max-width: 700px; margin: 12px auto 0; font-size: 18px; color: #fff; opacity: .9; }
+      .hero-cta { display: inline-block; margin-top: 22px; padding: 10px 30px; border-radius: 50px; border: 2px solid #149ddd; color: #fff; text-decoration: none; font-weight: 600; letter-spacing: 1px; transition: .3s; }
+      .hero-cta:hover { background: #149ddd; color: #fff; }
+      .about-lead { text-align: justify; }
+      .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+      .badge-skill { background: #eef6fb; color: #1f6f99; border: 1px solid #cfe6f3; padding: 4px 10px; border-radius: 4px; font-size: 13px; }
+    </style>
+
     <!-- =======================================================
       * Template Name: MyResume
-      * Updated: Jan 09 2024 with Bootstrap v5.3.2
       * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
       * Author: BootstrapMade.com
       * License: https://bootstrapmade.com/license/
@@ -113,21 +91,17 @@
 
   <body>
 
-    <!-- ======= Mobile nav toggle button ======= -->
-    <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
     <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex flex-column justify-content-center">
 
-      <!-- Provide an aria-label so screen readers can identify this navigation section -->
       <nav id="navbar" class="navbar nav-menu" aria-label="Primary navigation">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Activities</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Media Center</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-          <!--        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>-->
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -137,14 +111,15 @@
     <section id="hero" class="d-flex flex-column justify-content-center">
       <div class="container" data-aos="zoom-in" data-aos-delay="100">
         <h1>Tomer Libal</h1>
-        <p>AI and Law <span class="typed" data-typed-items="Researcher, Instructor"></span></p>
+        <p>I build <span class="typed" data-typed-items="compliance-grade AI systems, on-premise LLM pipelines, AI you can trust, AI adoption in teams"></span></p>
+        <p class="hero-tagline">On-premise AI for legal and financial institutions, built to be trusted, compliant, and actually used.</p>
         <div class="social-links">
-          <!-- Social profile icons: provide meaningful alternative text for screen readers【570671193418183†L742-L779】 -->
           <a href="https://dblp.org/pid/61/8336.html"><img src="assets/img/DBLP.png" alt="DBLP profile"></a>
           <a href="https://scholar.google.com/citations?user=f-MQc4MAAAAJ&hl=en"><img src="assets/img/GS.png" alt="Google Scholar profile"></a>
           <a href="https://orcid.org/0000-0003-3261-0180"><img src="assets/img/ORCID.png" alt="ORCID profile"></a>
           <a href="https://www.linkedin.com/in/tomer-libal-aba39a121/"><img src="assets/img/LI.png" alt="LinkedIn profile"></a>
         </div>
+        <a href="#contact" class="hero-cta">Let's talk</a>
       </div>
     </section><!-- End Hero -->
 
@@ -156,101 +131,109 @@
 
           <div class="section-title">
             <h2>About</h2>
+            <p>I build AI that professionals in regulated fields can actually trust. My work joins a verification scientist's standards with on-premise, compliant engineering, and the ability to teach a team to use it.</p>
+          </div>
 
-            <p>I am a researcher, instructor and professor in AI and Law with much experience in teaching and leading of publicly funded projects.</p>
+          <div class="row" style="margin-bottom:18px;">
+            <div class="col-lg-12">
+              <p class="about-lead">
+                For 25 years I have worked at the meeting point of artificial intelligence, research, and teaching. Today I design on-premise AI systems for legal and financial institutions: pipelines built on small open-weight language models that show their sources, refuse to invent, and run inside the client's own walls under GDPR and the EU AI Act. I founded an AI company whose clients include a top-10 international law firm, I built a university Data Science programme from nothing, and I have led more than 600,000 euros of public research funding. I am equally comfortable writing a specification with an engineering team or explaining what a language model really does to a room of non-technical professionals.
+              </p>
+              <div class="skill-tags">
+                <span class="badge-skill">On-premise LLM pipelines</span>
+                <span class="badge-skill">Verification-first AI</span>
+                <span class="badge-skill">GDPR and EU AI Act</span>
+                <span class="badge-skill">RAG and semantic search</span>
+                <span class="badge-skill">Fine-tuning and evaluation</span>
+                <span class="badge-skill">Data security</span>
+                <span class="badge-skill">Formal methods</span>
+                <span class="badge-skill">AI training and facilitation</span>
+              </div>
+            </div>
           </div>
 
           <div class="row">
             <div class="col-lg-4">
-              <h3 class="resume-title">Education</h3>
-              <div class="resume-item">
-                <h4>B.Sc. in Computer Sciences</h4>
-                <h5>1998 - 2001</h5>
-                <p><em>Hebrew University of Jerusalem, Israel</em></p>
-              </div>
-              <div class="resume-item">
-                <h4>M.Sc in Computer Sciences</h4>
-                <h5>2006 - 2008</h5>
-                <p><em>Technical University of Vienna, Austria</em></p>
-                <p><em>Technical University of Madrid, Spain</em></p>
-                <p>Master Thesis: Cut Elimination in Inductive Proofs of Weakly Quantified Theorems</p>
-              </div>
-              <div class="resume-item">
-                <h4>Ph.D. in Computer Sciences</h4>
-                <h5>2006 - 2008</h5>
-                <p><em>Technical University of Vienna, Austria</em></p>
-                <p>Ph.D. Thesis - <a href="http://www.logic.at/staff/shaolin/papers/dissertation.pdf">Unification in Higher-order Resolution</a></p>
-              </div>
-              <h3 class="resume-title">Industry Experience</h3>
-              <div class="resume-item">
-                <h4>Programming Team Lead</h4>
-                <h5>2001 - 2006</h5>
-                <p><em>Quigo Technologies, New York, USA</em></p>
-                <ul>
-                  <li>In charge of a Big Data team developing search marketing solutions
-                    <li>The company was merged into <a href="http://techcrunch.com/2007/11/07/aol-buys-quigo-confirmed/">AOL</a></li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>Java Programmer</h4>
-                <h5>1998 - 2001</h5>
-                <p><em>Surfnotes and VerticalNet Solutions, Jerusalem, Israel </em></p>
-                <ul>
-                  <li>Was employed as an OOP consultant to a formal text book used by computer students in Israel</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <h3 class="resume-title">Academic Experience</h3>
-              <div class="resume-item">
-                <h4>Research Scientist</h4>
-                <h5>2021 - present</h5>
-                <p><em>University of Luxembourg, Luxembourg </em></p>
-                <ul>
-                  <li>Teaching courses in the BiCSM, MiCS and Master in Law program</li>
-                  <li>Principal Investigator of the FNR-funded PaCT, iComplai and Exaile projects</li>
-                  <li>Demo - <a href="https://legai.uni.lu/epo-bot">European Patent Law Legal Assistant</a>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>Assistant Professor</h4>
-                <h5>2016 - present</h5>
-                <p><em>The American University of Paris, France</em></p>
-                <ul>
-                  <li>Teaching courses on data mining, web development, software engineering, programming and other topics</li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>Postdoctoral Researcher</h4>
-                <h5>2012 - 2017</h5>
-                <p><em>Microsoft Research - Inria Joint Center, France</em></p>
-                <ul>
-                  <li>Research and software verification in TLA, Parsifal and Prosecco teams</li>
-                  <li>Teaching assistant and thesis supervisor for various courses and students</li>
-                  <li>Within the teams of Leslie Lamport, Damien Doligez and Dale Miller</li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>Project Assistant</h4>
-                <h5>2008 - 2012</h5>
-                <p><em>Theory and Logic Group - TUW, Austria</em></p>
-                <ul>
-                  <li>Researching algorithms for higher-order unification and resolution</li>
-                  <li>Within the team of Alexander Leitsch</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <h3 class="resume-title">Entrepreneurship</h3>
+              <h3 class="resume-title">Now</h3>
               <div class="resume-item">
                 <h4>Founder and CEO</h4>
                 <h5>2023 - present</h5>
                 <p><em>Enidia AI, Luxembourg</em></p>
                 <ul>
-                  <li>Legal Informatics Startup</li>
-                  <li>Ethical and accurate chatbots for legal professionals</li>
-                  <li>Pro-bono chatbots addressing legal problems of the public in Luxembourg and beyond</li>
+                  <li>Build verification-first, on-premise AI for legal and financial institutions, GDPR and the EU AI Act by design</li>
+                  <li><strong>Landed and delivered for a top-10 international law firm</strong></li>
+                  <li><strong>Cut a production document review from about 25 hours to about 4</strong> at a client firm</li>
                 </ul>
+              </div>
+              <div class="resume-item">
+                <h4>AI Instructor</h4>
+                <h5>2024 - present</h5>
+                <p><em>Digital Learning Hub and House of Training, Luxembourg</em></p>
+                <ul>
+                  <li>Courses on AI fundamentals, prompt engineering, the EU AI Act, and AI in regulated industries</li>
+                  <li>Corporate AI facilitation that turns curiosity into durable adoption</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <h3 class="resume-title">Research and Academia</h3>
+              <div class="resume-item">
+                <h4>Assistant Professor (Tenured)</h4>
+                <h5>2016 - 2024</h5>
+                <p><em>The American University of Paris, France</em></p>
+                <ul>
+                  <li><strong>Designed and launched the university's first Data Science programme</strong>, modelled on UC Berkeley</li>
+                  <li>Taught 40+ courses across computer science, mathematics, statistics, and AI ethics</li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Principal Investigator</h4>
+                <h5>2020 - 2025</h5>
+                <p><em>University of Luxembourg, Luxembourg</em></p>
+                <ul>
+                  <li><strong>Principal investigator of more than 600,000 euros</strong> in public funding, including an FNR CORE grant</li>
+                  <li>Led the access-to-justice line: AI that helps lay users navigate the law. <a href="https://legai.uni.lu/epo-bot">Patent law assistant demo</a></li>
+                </ul>
+              </div>
+              <div class="resume-item">
+                <h4>Postdoctoral Researcher</h4>
+                <h5>2012 - 2016</h5>
+                <p><em>Microsoft Research and Inria Joint Centre, Paris</em></p>
+                <ul>
+                  <li>Software verification and proof assistants, in the teams of Leslie Lamport and Dale Miller</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <h3 class="resume-title">Earlier Industry</h3>
+              <div class="resume-item">
+                <h4>Programming Team Lead</h4>
+                <h5>2001 - 2006</h5>
+                <p><em>Quigo Technologies, New York, USA</em></p>
+                <ul>
+                  <li>R and D lead at an AI-driven advertising startup; <strong>the company was acquired by <a href="http://techcrunch.com/2007/11/07/aol-buys-quigo-confirmed/">AOL</a> for about 360 million dollars</strong></li>
+                </ul>
+              </div>
+              <h3 class="resume-title">Education</h3>
+              <div class="resume-item">
+                <h4>Ph.D., Computer Science</h4>
+                <h5>2008 - 2012</h5>
+                <p><em>Technical University of Vienna, Austria</em></p>
+                <p>Thesis: <a href="http://www.logic.at/staff/shaolin/papers/dissertation.pdf">Unification in Higher-order Resolution</a></p>
+              </div>
+              <div class="resume-item">
+                <h4>M.Sc., Computer Science</h4>
+                <h5>2006 - 2008</h5>
+                <p><em>Technical University of Vienna, Austria</em></p>
+              </div>
+              <div class="resume-item">
+                <h4>B.Sc., Mathematics and Computer Science</h4>
+                <h5>1998 - 2001</h5>
+                <p><em>Hebrew University of Jerusalem, Israel</em></p>
+              </div>
+              <h3 class="resume-title">Standing</h3>
+              <div class="resume-item">
+                <p>33 international refereed conference papers and 3 journal papers. <strong>402 citations, h-index 12.</strong> Reviewer for international journals and for Horizon and Marie Sklodowska-Curie Actions, with a best-paper award among co-authored work. Creator of the open-source <a href="https://github.com/gapt/gapt">GAPT</a> proof system.</p>
               </div>
             </div>
           </div>
@@ -264,7 +247,7 @@
 
           <div class="section-title">
             <h2>Facts</h2>
-            <p>Some milestones and achievements.</p>
+            <p>Some milestones and numbers.</p>
           </div>
 
           <div class="row">
@@ -272,23 +255,31 @@
             <div class="col-lg-3 col-md-6">
               <div class="count-box">
                 <i class="bi bi-journal-richtext"></i>
-                <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Peer-reviewed publications</p>
+                <span data-purecounter-start="0" data-purecounter-end="36" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Peer-reviewed papers</p>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
               <div class="count-box">
+                <i class="bi bi-bar-chart"></i>
+                <span data-purecounter-start="0" data-purecounter-end="402" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Research citations</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+              <div class="count-box">
                 <i class="bi bi-rocket"></i>
-                <span data-purecounter-start="0" data-purecounter-end="630" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Grants received (in €1,000) </p>
+                <span data-purecounter-start="0" data-purecounter-end="600" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Public funding led (in &euro;1,000)</p>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
               <div class="count-box">
                 <i class="bi bi-people-fill"></i>
-                <span data-purecounter-start="0" data-purecounter-end="31" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Courses taught</p>
               </div>
             </div>
@@ -303,93 +294,57 @@
         <div class="container" data-aos="fade-up">
 
           <div class="section-title">
-            <h2>Activities</h2>
-            <p>.</p>
+            <h2>How I Help</h2>
+            <p>Three ways I work with organisations, and the track record behind them.</p>
           </div>
 
           <div class="row">
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box iconbox-blue">
-                <div class="icon">
-                  <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
-                  </svg>
-                  <i class="bx bxl-dribbble"></i>
-                </div>
-                <h4><a href="">Teaching</a></h4>
-                <p>Since 2015, I have been teaching 31 undergraduate and graduate courses in Ecole Polytechnique in Palaiseau, The American University of Paris and The University of Luxembourg</p>
+                <div class="icon"><i class="bx bx-server"></i></div>
+                <h4>Compliance-grade AI pipelines</h4>
+                <p>I design and build AI systems on-premise, using small open-weight language models, so your data never leaves your walls. GDPR and the EU AI Act are handled by design, not bolted on. Built for legal and financial institutions that cannot send documents to a public cloud.</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon-box iconbox-orange ">
-                <div class="icon">
-                  <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
-                  </svg>
-                  <i class="bx bx-file"></i>
-                </div>
-                <h4><a href="">Publications</a></h4>
-                <p>I have authored or co-authored with one other researcher 26 peer-reviewed papers in journals such as Frontiers in Artificial Intelligence, Annals of Mathematics and Artificial Intelligence and conferences such as the International Conference on Artificial Intelligence and Law and the International Conference on Legal Knowledge and Information Systems. </p>
-                <div class="social-links">
-                  <!-- Repeated social profile icons (publications section) with alt text -->
-                  <a href="https://dblp.org/pid/61/8336.html"><img src="assets/img/DBLP.png" alt="DBLP profile"></a>
-                  <a href="https://scholar.google.com/citations?user=f-MQc4MAAAAJ&hl=en"><img src="assets/img/GS.png" alt="Google Scholar profile"></a>
-                  <a href="https://orcid.org/0000-0003-3261-0180"><img src="assets/img/ORCID.png" alt="ORCID profile"></a>
-                </div>
+              <div class="icon-box iconbox-orange">
+                <div class="icon"><i class="bx bx-check-shield"></i></div>
+                <h4>AI you can trust</h4>
+                <p>I bring a verification scientist's standards to applied AI. My systems show every source, give reasons, say "not found" instead of inventing, and surface what to review. The result is an answer a professional can sign their name to. I also audit and de-risk AI deployments that others have already built.</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon-box iconbox-pink">
-                <div class="icon">
-                  <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
-                  </svg>
-                  <i class="bx bx-tachometer"></i>
-                </div>
-                <h4><a href="">FNR projects</a></h4>
-                <p>I am the principal investigator of the FNR CORE ExAIle project, with a funding of €401,000 until April, 2025. I was the principal investigator of the FNR projects PaCT and iComplai, with a total funding of €221,100. ExAile is a collaboration with Aleksander Smywiński-Pohl from the AGH University of Science and Technology in Krakow. During the project we are investigating how to use court decisions as examples for legal guidance.</p>
+                <div class="icon"><i class="bx bx-chalkboard"></i></div>
+                <h4>AI training and adoption</h4>
+                <p>The hardest part of AI is rarely the technology, it is getting people to trust and use it. I train and facilitate non-technical teams, from first principles to durable daily habits, drawing on years of teaching at the Digital Learning Hub and the House of Training.</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box iconbox-yellow">
-                <div class="icon">
-                  <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
-                  </svg>
-                  <i class="bx bx-layer"></i>
-                </div>
-                <h4><a href="">The LegAi Assistant Project</a></h4>
-                <p class="mb-3">A project within the university of Luxembourg to deliver pro-bono legal chatbots in various legal domains, with the goal of helping the public in Luxembourg and beyond have better access to justice.</p>
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4>Enidia AI</h4>
+                <p class="mb-3">In 2023 I founded <a href="https://www.enidia.ai/">Enidia AI</a>, building trustworthy AI for legal and financial work. Its clients include a top-10 international law firm, where a production document review was cut from about 25 hours to about 4.</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon-box iconbox-red">
-                <div class="icon">
-                  <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
-                  </svg>
-                  <i class="bx bx-slideshow"></i>
-                </div>
-                <h4><a href="">Enidia AI</a></h4>
-                <p>In 2023, I have founded <a href="https://www.enidia.ai/">Enidia AI</a>. Enidia AI aims at creating ethical chatbots which can be used for providing legal advice and other legal tasks. These chatbots are based on the novel approach of <a href="https://www.enidia.ai/research.html#technology">cognitive AI</a>.</p>
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4>Research and funded projects</h4>
+                <p>As principal investigator I have led more than 600,000 euros of public research funding, including an FNR CORE grant, Luxembourg's most competitive instrument. My access-to-justice work built AI that helps the public navigate the law, including a <a href="https://legai.uni.lu/epo-bot">patent law assistant</a>.</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon-box iconbox-teal">
-                <div class="icon">
-                  <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                  </svg>
-                  <i class="bx bx-arch"></i>
-                </div>
-                <h4><a href="">Academic community</a></h4>
-                <p>I am an active reviewer in the Formal Logic and AI and Law communities, as well as a reviewer for European projects and the American Mathematical Society. One of the papers I have co-authored has won the best-paper award. I have been supervising three PhD students and numerous master and bachelor students in their theses and projects. I was invited to speak in various conference and workshop events</p>
+                <div class="icon"><i class="bx bx-arch"></i></div>
+                <h4>Academic standing</h4>
+                <p>33 international refereed conference papers and 3 journal papers, 402 citations, h-index 12. Reviewer for international journals and for Horizon and Marie Sklodowska-Curie Actions, with a best-paper award among my co-authored work. I have supervised PhD, master, and bachelor students and speak regularly at industry and academic events.</p>
               </div>
             </div>
 
@@ -397,7 +352,6 @@
 
         </div>
       </section><!-- End Services Section -->
-
 
       <!-- ======= Portfolio Section ======= -->
       <section id="portfolio" class="portfolio section-bg">
@@ -423,7 +377,7 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/research_lux.jpg" class="img-fluid" alt="Conversation with Research Luxembourg about AI supporting the legal profession">
+                <img src="assets/img/portfolio/research_lux.jpg" class="img-fluid" alt="Conversation with Research Luxembourg about AI supporting the legal profession">
                 <div class="portfolio-info">
                   <h4>Conversation with Research Luxembourg</h4>
                   <p>Supporting the legal profession by exploring the potential of AI</p>
@@ -464,7 +418,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/science_lux_gdpr_de.jpg" class="img-fluid" alt="Feature on science.lu about the EU AI Act and its impact on research and innovation">
+                <img src="assets/img/portfolio/science_lux_gdpr_de.jpg" class="img-fluid" alt="Feature on science.lu about the EU AI Act and its impact on research and innovation">
                 <div class="portfolio-info">
                   <h4>Der EU AI Act: Motor oder Bremse für Forschung und Innovation?</h4>
                   <p>Das erste Gesetz weltweit zur Regulierung Künstlicher Intelligenz ist auf dem Weg: der EU AI Act der Europäischen Union. Drei wissenschaftliche Experten erläutern, was sie von dem Regelwerk halten</p>
@@ -477,7 +431,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/silicon_elevator.png" class="img-fluid" alt="RTL’s The Elevator episode featuring Tomer Libal pitching Enidia AI">
+                <img src="assets/img/portfolio/silicon_elevator.png" class="img-fluid" alt="RTL's The Elevator episode featuring Tomer Libal pitching Enidia AI">
                 <div class="portfolio-info">
                   <h4>The Elevator 30: Tomer Libal, Founder of Enidia AI</h4>
                   <p>Pitching Enidia.ai in an RTL "The Elevator" episode</p>
@@ -503,7 +457,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/exaile24.png" class="img-fluid" alt="Launch of AI legal assistant for patent law at the University of Luxembourg">
+                <img src="assets/img/portfolio/exaile24.png" class="img-fluid" alt="Launch of AI legal assistant for patent law at the University of Luxembourg">
                 <div class="portfolio-info">
                   <h4>AI-legal assistant for Patent Law launched at University of Luxembourg</h4>
                   <p>Releasing an access-to-justice assistant</p>
@@ -529,7 +483,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/techtalk24.png" class="img-fluid" alt="LegalTech talk on launching an AI legal assistant for patent law at the University of Luxembourg">
+                <img src="assets/img/portfolio/techtalk24.png" class="img-fluid" alt="LegalTech talk on launching an AI legal assistant for patent law at the University of Luxembourg">
                 <div class="portfolio-info">
                   <h4>AI-legal assistant for Patent Law launched at University of Luxembourg</h4>
                   <p>LegalTech Talks about the release of the legal assisant in the university of Luxembourg</p>
@@ -542,7 +496,7 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/dla24.jpg" class="img-fluid" alt="Invited panel speaker on digital transformation in law firms at DLA Piper’s IP conference">
+                <img src="assets/img/portfolio/dla24.jpg" class="img-fluid" alt="Invited panel speaker on digital transformation in law firms at DLA Piper's IP conference">
                 <div class="portfolio-info">
                   <h4>AI Expert for Digital Transformation in Law Firms</h4>
                   <p>Invited Speaker on DLA Piper annual IP conference</p>
@@ -555,10 +509,10 @@
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/silicon24.jpg" class="img-fluid" alt="State of AI 2024 panel hosted by Silicon Luxembourg and Simmons & Simmons">
+                <img src="assets/img/portfolio/silicon24.jpg" class="img-fluid" alt="State of AI 2024 panel hosted by Silicon Luxembourg and Simmons and Simmons">
                 <div class="portfolio-info">
                   <h4>Expert for Technical Aspects of AI</h4>
-                  <p>Invited Speaker on Silicon Luxembourg and Simmons & Simmons State of AI Panel</p>
+                  <p>Invited Speaker on Silicon Luxembourg and Simmons and Simmons State of AI Panel</p>
                   <div class="portfolio-links">
                     <a href="assets/img/portfolio/silicon24.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Invited Speaker on State of AI Event"><i class="bx bx-plus"></i></a>
                     <a target="_blank" href="https://www.siliconluxembourg.lu/roundtable-the-state-of-ai-2024/"><i class="bx bx-link"></i></a>
@@ -566,9 +520,9 @@
                 </div>
               </div>
             </div>
-	    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
-                <img src="assets/img/portfolio/irina.jpg" class="img-fluid" alt="Website of Baroque soprano singer Irina Kalderon Libal">
+                <img src="assets/img/portfolio/irina.jpg" class="img-fluid" alt="Website of Baroque soprano singer Irina Kalderon Libal">
                 <div class="portfolio-info">
                   <h4>The website of my wife, a Baroque Sopran singer</h4>
                   <div class="portfolio-links">
@@ -582,171 +536,101 @@
         </div>
       </section><!-- End Portfolio Section -->
 
-
-
-      <!-- ======= Testimonials Section ======= -->
-      <!--<section id="testimonials" class="testimonials section-bg">
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-        <h2>Testimonials</h2>
-        </div>
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>Want to build something, de-risk an AI you already have, or get your team using AI well? Let's talk. Email <a href="mailto:tomer@libal.info">tomer@libal.info</a> or connect on <a href="https://www.linkedin.com/in/tomer-libal-aba39a121/">LinkedIn</a>.</p>
+          </div>
 
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
+          <div class="row mt-1">
 
-        <div class="swiper-slide">
-        <div class="testimonial-item">
-        <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-        <h3>Saul Goodman</h3>
-        <h4>Ceo &amp; Founder</h4>
-        <p>
-        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-        </p>
-        </div>
-        </div>
+            <div class="col-12 mt-5 mt-lg-0">
 
-        <div class="swiper-slide">
-        <div class="testimonial-item">
-        <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-        <h3>Sara Wilsson</h3>
-        <h4>Designer</h4>
-        <p>
-        <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-        <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-        </p>
-        </div>
-        </div>
-
-
-        </div>
-        <div class="swiper-pagination"></div>
-        </div>
-
-        </div>
-        </section><!-- End Testimonials Section -->
-
-        <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
-          <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-              <h2>Contact</h2>
-            </div>
-
-            <div class="row mt-1">
-
-              <div class="col-12 mt-5 mt-lg-0">
-
-                <div>
-                  <link rel="stylesheet" href="https://cdn.formbold.com/formbold.css" />
-                  <br />
-                  <div class="formbold-builder-form themeOne">
-                    <form
-                        enctype="multipart/form-data"
-                        action="https://formbold.com/s/6vv8e"
-                        method="POST"
-                        class="mx-auto w-full max-w-[570px] rounded-[10px] border border-stroke bg-white p-10 themeOne"
-                        >
-                        <div class="SortableItem fb-builder-item">
-                          <div class="mb-4">
-                            <label class="mb-2.5 block text-base text-black"><span></span></label
-                            ><input
-                                 type="text"
-                                 class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
-                                 name="text_input_51F740BF-54A7-4A42-850B-CAB226B599E3"
-                                 placeholder="Your Name"
-                                 value=""
-                                 />
-                          </div>
+              <div>
+                <link rel="stylesheet" href="https://cdn.formbold.com/formbold.css" />
+                <br />
+                <div class="formbold-builder-form themeOne">
+                  <form
+                      enctype="multipart/form-data"
+                      action="https://formbold.com/s/6vv8e"
+                      method="POST"
+                      class="mx-auto w-full max-w-[570px] rounded-[10px] border border-stroke bg-white p-10 themeOne"
+                      >
+                      <div class="SortableItem fb-builder-item">
+                        <div class="mb-4">
+                          <label class="mb-2.5 block text-base text-black"><span></span></label
+                          ><input
+                               type="text"
+                               class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                               name="text_input_51F740BF-54A7-4A42-850B-CAB226B599E3"
+                               placeholder="Your Name"
+                               value=""
+                               />
                         </div>
-                        <div class="SortableItem fb-builder-item">
-                          <div class="mb-4">
-                            <label class="mb-2.5 block text-base text-black"><span></span></label
-                            ><input
-                                 type="email"
-                                 class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
-                                 name="email_input_29D281F6-8F21-4D6F-8701-64F3A133442C"
-                                 placeholder="Your Email"
-                                 value=""
-                                 />
-                          </div>
+                      </div>
+                      <div class="SortableItem fb-builder-item">
+                        <div class="mb-4">
+                          <label class="mb-2.5 block text-base text-black"><span></span></label
+                          ><input
+                               type="email"
+                               class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                               name="email_input_29D281F6-8F21-4D6F-8701-64F3A133442C"
+                               placeholder="Your Email"
+                               value=""
+                               />
                         </div>
-                        <div class="SortableItem fb-builder-item">
-                          <div class="mb-4">
-                            <label class="mb-2.5 block text-base text-black"><span></span></label
-                            ><input
-                                 type="text"
-                                 class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
-                                 name="text_input_F1FEE3DF-238B-4097-A24E-08B18D5B3A4F"
-                                 placeholder="Subject"
-                                 value=""
-                                 />
-                          </div>
+                      </div>
+                      <div class="SortableItem fb-builder-item">
+                        <div class="mb-4">
+                          <label class="mb-2.5 block text-base text-black"><span></span></label
+                          ><input
+                               type="text"
+                               class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                               name="text_input_F1FEE3DF-238B-4097-A24E-08B18D5B3A4F"
+                               placeholder="Subject"
+                               value=""
+                               />
                         </div>
-                        <div class="SortableItem fb-builder-item">
-                          <div class="mb-4">
-                            <label class="mb-2.5 block text-base text-black"><span></span></label
-                            ><textarea
-                                 class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
-                                 name="text_area_9E086F10-BD62-481A-90D7-0BE90EECFAE5"
-                                 placeholder="Message"
-                                 ></textarea>
-                          </div>
+                      </div>
+                      <div class="SortableItem fb-builder-item">
+                        <div class="mb-4">
+                          <label class="mb-2.5 block text-base text-black"><span></span></label
+                          ><textarea
+                               class="w-full rounded border border-stroke bg-white px-5 py-3 text-base text-black outline-none focus:border-primary"
+                               name="text_area_9E086F10-BD62-481A-90D7-0BE90EECFAE5"
+                               placeholder="Message"
+                               ></textarea>
                         </div>
-                        <div class="btn-toolbar flex items-center space-x-3">
-                          <input
-                              type="submit"
-                              class="inline-flex cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90"
-                              value="Submit"
-                              />
-                        </div>
-                    </form>
-                    <p class="mt-8 flex items-center justify-center">
-                    Powered by<span class="pl-2"
-                                    ><a href="https://formbold.com" rel="nofollow noopener" target="_blank"
-                                                                                            ><img
-                                                                                                 src="https://cdn.formbold.com/formbold-logo.svg"
-                                                                                                 alt="Formbold Logo"
-                                                                                                 style="max-width: 100px;" /></a
-                                                                                               ></span>
-                    </p>
-                  </div>
-                </div>
-                <!--
-                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                  <div class="row">
-                  <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div>
-                  </div>
-                  <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                  </div>
-                  <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                  </div>
-                  <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
+                      </div>
+                      <div class="btn-toolbar flex items-center space-x-3">
+                        <input
+                            type="submit"
+                            class="inline-flex cursor-pointer items-center justify-center rounded border border-primary bg-primary px-8 py-2 text-base font-medium text-white hover:bg-opacity-90"
+                            value="Submit"
+                            />
+                      </div>
                   </form>
- -->
-
+                  <p class="mt-8 flex items-center justify-center">
+                  Powered by<span class="pl-2"
+                                  ><a href="https://formbold.com" rel="nofollow noopener" target="_blank"
+                                                                                          ><img
+                                                                                               src="https://cdn.formbold.com/formbold-logo.svg"
+                                                                                               alt="Formbold Logo"
+                                                                                               style="max-width: 100px;" /></a
+                                                                                             ></span>
+                  </p>
+                </div>
               </div>
 
             </div>
 
           </div>
-        </section><!-- End Contact Section -->
+
+        </div>
+      </section><!-- End Contact Section -->
 
     </main><!-- End #main -->
 
@@ -755,7 +639,6 @@
       <div class="container">
         <h3>Tomer Libal</h3>
         <div class="social-links">
-          <!-- Footer social profile icons with alt text -->
           <a href="https://dblp.org/pid/61/8336.html"><img src="assets/img/DBLP.png" alt="DBLP profile"></a>
           <a href="https://scholar.google.com/citations?user=f-MQc4MAAAAJ&hl=en"><img src="assets/img/GS.png" alt="Google Scholar profile"></a>
           <a href="https://orcid.org/0000-0003-3261-0180"><img src="assets/img/ORCID.png" alt="ORCID profile"></a>
@@ -765,10 +648,6 @@
           &copy; Copyright <strong><span>Tomer Libal</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: [license-url] -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
           Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
@@ -794,179 +673,3 @@
   </body>
 
 </html>
-<!--
-  <section id="about" class="about">
-  <div class="container" data-aos="fade-up">
-
-  <div class="section-title">
-  <h2>About</h2>
-  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-  </div>
-
-  <div class="row">
-  <div class="col-lg-4">
-  <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
-  </div>
-  <div class="col-lg-8 pt-4 pt-lg-0 content">
-  <h3>UI/UX Designer &amp; Web Developer.</h3>
-  <p class="fst-italic">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-  magna aliqua.
-  </p>
-  <div class="row">
-  <div class="col-lg-6">
-  <ul>
-  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
-  </ul>
-  </div>
-  <div class="col-lg-6">
-  <ul>
-  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-  </ul>
-  </div>
-  </div>
-  <p>
-  Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-  Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-  </p>
-  </div>
-  </div>
-
-  </div>
-  </section>
-
-  <section id="resume" class="resume">
-  <div class="container" data-aos="fade-up">
-
-  <div class="section-title">
-  <h2>Resume</h2>
-  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-  </div>
-
-  <div class="row">
-  <div class="col-lg-6">
-  <h3 class="resume-title">Sumary</h3>
-  <div class="resume-item pb-0">
-  <h4>Brandon Johnson</h4>
-  <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-  <ul>
-  <li>Portland par 127,Orlando, FL</li>
-  <li>(123) 456-7891</li>
-  <li>alice.barkley@example.com</li>
-  </ul>
-  </div>
-
-  <h3 class="resume-title">Education</h3>
-  <div class="resume-item">
-  <h4>Master of Fine Arts &amp; Graphic Design</h4>
-  <h5>2015 - 2016</h5>
-  <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-  <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-  </div>
-  <div class="resume-item">
-  <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-  <h5>2010 - 2014</h5>
-  <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-  <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-  </div>
-  </div>
-  <div class="col-lg-6">
-  <h3 class="resume-title">Professional Experience</h3>
-  <div class="resume-item">
-  <h4>Senior graphic design specialist</h4>
-  <h5>2019 - Present</h5>
-  <p><em>Experion, New York, NY </em></p>
-  <ul>
-  <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-  <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-  <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-  <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-  </ul>
-  </div>
-  <div class="resume-item">
-  <h4>Graphic design specialist</h4>
-  <h5>2017 - 2018</h5>
-  <p><em>Stepping Stone Advertising, New York, NY</em></p>
-  <ul>
-  <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-  <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-  <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-  <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-  </ul>
-  </div>
-  </div>
-  </div>
-
-  </div>
-  </section>
-
-  <section id="skills" class="skills section-bg">
-  <div class="container" data-aos="fade-up">
-
-  <div class="section-title">
-  <h2>Skills</h2>
-  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-  </div>
-
-  <div class="row skills-content">
-
-  <div class="col-lg-6">
-
-  <div class="progress">
-  <span class="skill">HTML <i class="val">100%</i></span>
-  <div class="progress-bar-wrap">
-  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-  </div>
-  </div>
-
-  <div class="progress">
-  <span class="skill">CSS <i class="val">90%</i></span>
-  <div class="progress-bar-wrap">
-  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-  </div>
-  </div>
-
-  <div class="progress">
-  <span class="skill">JavaScript <i class="val">75%</i></span>
-  <div class="progress-bar-wrap">
-  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-  </div>
-  </div>
-
-  </div>
-
-  <div class="col-lg-6">
-
-  <div class="progress">
-  <span class="skill">PHP <i class="val">80%</i></span>
-  <div class="progress-bar-wrap">
-  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-  </div>
-  </div>
-
-  <div class="progress">
-  <span class="skill">WordPress/CMS <i class="val">90%</i></span>
-  <div class="progress-bar-wrap">
-  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-  </div>
-  </div>
-
-  <div class="progress">
-  <span class="skill">Photoshop <i class="val">55%</i></span>
-  <div class="progress-bar-wrap">
-  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-  </div>
-  </div>
-
-  </div>
-
-  </div>
-
-  </div>
-  </section>
