@@ -731,7 +731,20 @@
 
           <div class="section-title">
             <h2>Contact</h2>
-            <p>Want to build something, de-risk an AI you already have, or get your team using AI well? Let's talk. Email <a href="mailto:tomer@libal.info">tomer@libal.info</a> or connect on <a href="https://www.linkedin.com/in/tomerlibal/">LinkedIn</a>.</p>
+            <p>Want to build something, de-risk an AI you already have, or get your team using AI well? Email <span id="email-cta">tomer [at] libal.info</span> or connect on <a href="https://www.linkedin.com/in/tomerlibal/">LinkedIn</a>.</p>
+            <script>
+              (function(){
+                var u = "tomer", d = "libal.info";
+                var el = document.getElementById('email-cta');
+                if (!el) return;
+                var a = document.createElement('a');
+                a.href = "mailto:" + u + "@" + d;
+                a.textContent = u + "@" + d;
+                el.innerHTML = "";
+                el.appendChild(a);
+              })();
+            </script>
+            <p style="margin-top:18px;"><a href="https://calendar.app.google/nBgpxMxQivParBup8" target="_blank" rel="noopener" class="hero-cta">Book a 30-minute call</a></p>
           </div>
 
           <div class="row mt-1">
