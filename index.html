@@ -122,6 +122,33 @@
       .trust-item { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 16px; font-size: 14px; color: #475569; line-height: 1.5; }
       .trust-item .bi, .trust-item .bx { color: #1e7e45; font-size: 20px; line-height: 1.4; flex-shrink: 0; }
       .trust-item strong { color: #1e293b; }
+
+      /* AI Act urgency badge */
+      .ai-act-banner { display: inline-block; background: #c0392b; color: #fff; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 4px; margin-bottom: 14px; letter-spacing: 0.3px; }
+
+      /* Hero proof pillars */
+      .hero-pillars { display: flex; gap: 14px; margin-top: 28px; max-width: 680px; }
+      .hero-pillar { flex: 1; background: rgba(255,255,255,0.88); border: 1px solid #d9e8f0; border-radius: 10px; padding: 14px 16px; }
+      .hero-pillar .pi-icon { font-size: 20px; margin-bottom: 6px; display: block; }
+      .hero-pillar .pi-icon.trainer { color: #149ddd; }
+      .hero-pillar .pi-icon.knowledge { color: #e8860a; }
+      .hero-pillar .pi-icon.practice { color: #1e7e45; }
+      .hero-pillar h5 { font-size: 11.5px; font-weight: 700; color: #0f2c40; margin-bottom: 7px; text-transform: uppercase; letter-spacing: 0.5px; }
+      .hero-pillar ul { list-style: none; padding: 0; margin: 0; }
+      .hero-pillar ul li { font-size: 11.5px; color: #45505b; margin-bottom: 3px; padding-left: 12px; position: relative; line-height: 1.4; }
+      .hero-pillar ul li::before { content: '·'; position: absolute; left: 0; font-weight: 700; color: #149ddd; }
+
+      /* How I Work levels */
+      .hiw-level { border-radius: 10px; padding: 22px 26px; margin-bottom: 16px; border-left: 5px solid; }
+      .hiw-level.level-1 { border-color: #149ddd; background: #f5fafd; }
+      .hiw-level.level-2 { border-color: #e8860a; background: #fdf8f2; }
+      .hiw-level.level-3 { border-color: #1e7e45; background: #eaf6ee; }
+      .hiw-level-num { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+      .hiw-level.level-1 .hiw-level-num { color: #149ddd; }
+      .hiw-level.level-2 .hiw-level-num { color: #c07008; }
+      .hiw-level.level-3 .hiw-level-num { color: #1e7e45; }
+      .hiw-level h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: #0f2c40; }
+      .hiw-level p { font-size: 14px; color: #475569; margin: 0; line-height: 1.65; }
     </style>
 
     <!-- =======================================================
@@ -166,6 +193,40 @@
           <a href="https://www.linkedin.com/in/tomerlibal/"><img src="assets/img/LI.png" alt="LinkedIn profile"></a>
         </div>
         <a href="#contact" class="hero-cta">Let's talk</a>
+
+        <div class="hero-pillars">
+          <div class="hero-pillar">
+            <span class="pi-icon trainer"><i class="bx bx-chalkboard"></i></span>
+            <h5>Excellent trainer</h5>
+            <ul>
+              <li>4.0 / 4 trainer rating</li>
+              <li>9 / 10 recommendation rate</li>
+              <li>12+ years · 50+ courses</li>
+              <li>Digital Learning Hub &amp; House of Training</li>
+            </ul>
+          </div>
+          <div class="hero-pillar">
+            <span class="pi-icon knowledge"><i class="bx bx-brain"></i></span>
+            <h5>Deep AI knowledge</h5>
+            <ul>
+              <li>PhD in AI · 18 years research</li>
+              <li>+€600k in research grants</li>
+              <li>Horizon Europe reviewer</li>
+              <li>PhD examiner · EU AI Act expert</li>
+            </ul>
+          </div>
+          <div class="hero-pillar">
+            <span class="pi-icon practice"><i class="bx bx-rocket"></i></span>
+            <h5>Proven in practice</h5>
+            <ul>
+              <li>Early team lead, Quigo Technologies</li>
+              <li>Acquired by AOL for $360M (2007)</li>
+              <li>Document review: 25h → 4h in production</li>
+              <li>Founder &amp; CEO, Enidia AI</li>
+            </ul>
+          </div>
+        </div>
+
       </div>
     </section><!-- End Hero -->
 
@@ -177,13 +238,13 @@
 
           <div class="section-title">
             <h2>About</h2>
-            <p>Most organisations know they need to do something about AI. Very few know where to start. That is the gap I fill.</p>
+            <p><span class="ai-act-banner">EU AI Act obligations in force from 2 August 2026</span><br>Most organisations know they need to do something about AI. Very few know where to start, and even fewer know what the EU AI Act actually requires of them. That is the gap I fill.</p>
           </div>
 
           <div class="row" style="margin-bottom:18px;">
             <div class="col-lg-12">
               <p class="about-lead">
-                I work as an AI transition manager and trainer for organisations of every kind, from public bodies, law firms and financial institutions to any team that wants AI it can actually trust. I come in for a defined period, usually one to two months, to solve a concrete AI problem: I assess honestly what AI should do for you, build the first trustworthy, human-supervised pipelines together with your team, train them as we go, and leave them able to run it without me. Because I have built production AI systems myself, including in regulated environments, I know what vendors will tell you, what they will not, and what to verify. I co-founded an AI company whose clients include a top-10 international law firm, I built a university Data Science programme from scratch, and I have led more than 600,000 euros of public research funding. When you want a longer relationship, I can continue on a fractional basis.
+                I am an AI trainer and transition manager for organisations of every kind, from public bodies, law firms and financial institutions to any team that wants AI they can actually trust and use compliantly. I start by training teams to get the most out of AI tools they already have, with full compliance built in. For teams that need more, I step in as their fractional AI officer or lead the full transition directly. With 12 years of teaching, 50+ courses, a PhD in AI, 18 years of research, more than 600,000 euros in research grants, and production deployments at regulated institutions, I bring depth that most trainers and most consultants do not have separately, let alone together.
               </p>
               <div class="skill-tags">
                 <span class="badge-skill">AI Transition Management</span>
@@ -218,13 +279,24 @@
             <div class="col-lg-4">
               <h3 class="resume-title">Now</h3>
               <div class="resume-item">
+                <h4>AI Trainer</h4>
+                <h5>August 2025 - present</h5>
+                <p><em>Digital Learning Hub, House of Training, and public and private organisations, Luxembourg</em></p>
+                <ul>
+                  <li>AI literacy and adoption programmes for professional and public-sector teams, built around the four obligations of the EU AI Act: literacy, transparency, human oversight, and traceability</li>
+                  <li>Satisfies Article 4 of the EU AI Act with documented, measurable outcomes</li>
+                  <li>Formats from half-day to full-day; governance modules for managers and legal referents</li>
+                  <li><strong>4.0 / 4 trainer rating · 93% overall satisfaction rate</strong></li>
+                </ul>
+              </div>
+              <div class="resume-item">
                 <h4>AI Transition Manager and Fractional AI Officer</h4>
                 <h5>2025 - present</h5>
                 <p><em>Independent, Luxembourg and beyond</em></p>
                 <ul>
-                  <li>Time-boxed engagements (typically 1 to 2 months) to solve a defined AI problem for any organisation, public or private, regulated or not</li>
-                  <li>Build the first trustworthy, human-supervised pipelines with the team, train them as we go, and leave them able to run it</li>
-                  <li>Optional fractional continuation; builder's depth, on the client's side of the table</li>
+                  <li>For teams that need ongoing expert guidance: fractional AI officer, adapting to the organisation's pace and needs</li>
+                  <li>For teams requiring full transformation support: direct transition management, typically one to two months, to solve a defined AI problem end to end</li>
+                  <li>Both models leave your team able to operate independently and in full compliance</li>
                 </ul>
               </div>
               <div class="resume-item">
@@ -232,20 +304,9 @@
                 <h5>2023 - present</h5>
                 <p><em><a href="https://www.enidia.ai/">Enidia AI</a>, Luxembourg</em></p>
                 <ul>
-                  <li>Verification-first, on-premise AI for any organisation that needs to trust its AI, with deep experience in regulated industries; GDPR and the EU AI Act by design</li>
+                  <li>Verification-first, on-premise AI for regulated industries; GDPR and EU AI Act by design</li>
                   <li><strong>Clients include a top-10 international law firm</strong></li>
                   <li><strong>Production document review cut from about 25 hours to about 4</strong></li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>AI Trainer</h4>
-                <h5>August 2025 - present</h5>
-                <p><em>Digital Learning Hub, House of Training, and public and private organisations, Luxembourg</em></p>
-                <ul>
-                  <li>AI literacy and adoption programmes for professional and public-sector teams with no prior AI background, in English and French</li>
-                  <li>Programmes built around transparency, traceability and human oversight, satisfying EU AI Act Article 4 with documented outcomes</li>
-                  <li>Formats from half-day to full-day; deep-dive workshops and governance modules for managers and legal referents</li>
-                  <li><strong>93% overall satisfaction rate.</strong></li>
                 </ul>
               </div>
             </div>
@@ -377,32 +438,32 @@
 
           <div class="section-title">
             <h2>How I Help</h2>
-            <p>Most organisations know they need to do something about AI. Very few know where to start. The vendors will answer that question, but in their own interest. I come in on your side of the table.</p>
+            <p><span class="ai-act-banner">EU AI Act obligations in force from 2 August 2026</span><br>The AI Act is not optional. Article 4 requires demonstrable AI literacy from every organisation using AI. Transparency, human oversight, and traceability are hard obligations, not aspirations. I solve all of them.</p>
           </div>
 
           <div class="row">
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon-box iconbox-blue">
-                <div class="icon"><i class="bx bx-briefcase"></i></div>
-                <h4>AI Transition Management and Fractional AI Officer</h4>
-                <p>I come in for a defined period, usually one to two months, to solve a concrete AI problem and leave your team able to run it. Two ways to engage: a fixed price, or fixed costs plus a share of the savings I generate. When you want a longer relationship, I continue as your fractional AI officer afterwards.</p>
+              <div class="icon-box iconbox-orange">
+                <div class="icon"><i class="bx bx-chalkboard"></i></div>
+                <h4>AI Literacy and Training</h4>
+                <p>I design and deliver AI literacy programmes that satisfy Article 4 of the EU AI Act with documented, measurable outcomes. Every programme is built around the four obligations: literacy, transparency, human oversight, and traceability, using the AI tools your team already has. No prior AI background needed. 93% overall satisfaction rate. 4.0 / 4 trainer rating.</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon-box iconbox-orange">
-                <div class="icon"><i class="bx bx-chalkboard"></i></div>
-                <h4>AI Literacy and Training</h4>
-                <p>I design and deliver AI literacy programmes for professional and public-sector teams with no prior AI background. Every programme is built around transparency, traceability and human oversight as working principles, and satisfies the AI literacy obligation under Article 4 of the EU AI Act with documented outcomes. 93% overall satisfaction rate.</p>
+              <div class="icon-box iconbox-blue">
+                <div class="icon"><i class="bx bx-briefcase"></i></div>
+                <h4>AI Transition Management</h4>
+                <p>For organisations that need direct, hands-on leadership of their AI transformation. I step in for a defined period, typically one to two months, assess what AI should do for you, build the first compliant, human-supervised pipelines with your team, and leave them fully operational and AI Act-compliant. Two ways to agree the fee: fixed price, or fixed costs plus a share of the savings I generate.</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon-box iconbox-pink">
-                <div class="icon"><i class="bx bx-check-shield"></i></div>
-                <h4>Prompt-writing and AI pipelines</h4>
-                <p>I build practical, human-supervised AI directly with your team: well-engineered prompts and supervised retrieval (RAG) in Claude, Gemini or Mistral, designed so people can trust the output and stay responsible for it. You keep the skill, not just a black box. Heavier on-premise production builds are delivered by my company, Enidia.</p>
+                <div class="icon"><i class="bx bx-user-check"></i></div>
+                <h4>Fractional AI Officer</h4>
+                <p>For organisations that need ongoing expert presence without a full-time hire. I act as your fractional AI officer, adapting to your pace and your needs, keeping your AI use compliant as the Act evolves, and bridging the gap between your team's capability and what the regulation requires. Available after a training engagement or independently.</p>
               </div>
             </div>
 
@@ -410,7 +471,7 @@
               <div class="icon-box iconbox-yellow">
                 <div class="icon"><i class="bx bx-slideshow"></i></div>
                 <h4><a href="https://www.enidia.ai/">Enidia AI</a></h4>
-                <p class="mb-3">In 2023 I co-founded <a href="https://www.enidia.ai/">Enidia AI</a>, building trustworthy, on-premise AI for any organisation that needs to trust its AI, with deep experience in regulated industries. Clients include a top-10 international law firm, where a production document review was cut from about 25 hours to about 4.</p>
+                <p>In 2023 I co-founded <a href="https://www.enidia.ai/">Enidia AI</a>, building trustworthy, on-premise AI for regulated industries. GDPR and EU AI Act by design. Clients include a top-10 international law firm, where a production document review was cut from about 25 hours to about 4.</p>
               </div>
             </div>
 
@@ -426,7 +487,7 @@
               <div class="icon-box iconbox-teal">
                 <div class="icon"><i class="bx bx-arch"></i></div>
                 <h4>Academic standing</h4>
-                <p>I am a peer reviewer for leading international AI conferences and journals, an evaluator for EU Horizon and Marie Sklodowska-Curie Actions funding calls, and an examiner of PhD theses, so I see new AI research before it reaches the public. My own record: 33 international refereed conference papers and 3 journal papers, 402 citations, h-index 12, with a best-paper award among my co-authored work. I have supervised PhD, master, and bachelor students, I am active in AI research communities, and I speak regularly at industry and academic events.</p>
+                <p>Peer reviewer for leading international AI conferences and journals, evaluator for EU Horizon and Marie Sklodowska-Curie Actions, and PhD thesis examiner. I see new AI research before it reaches the public. My own record: 33 refereed conference papers, 3 journal papers, 402 citations, h-index 12, best-paper award.</p>
               </div>
             </div>
 
@@ -441,22 +502,34 @@
 
           <div class="section-title">
             <h2>How I Work</h2>
-            <p>Clear engagements, a low-risk way to start, and a fee model designed to be fair to you.</p>
+            <p>Every engagement starts with training. Depending on what your organisation needs next, it continues in one of two directions.</p>
           </div>
 
-          <div class="hiw-example" data-aos="fade-up">
+          <div data-aos="fade-up">
+
+            <div class="hiw-level level-1">
+              <div class="hiw-level-num">Step 1 &mdash; always</div>
+              <h4>Training: your team learns to maximise AI, compliantly</h4>
+              <p>I train your teams to get the most out of the AI tools they already have, starting with the standard chatbots available in your environment (Mistral Le Chat, Copilot, or similar). Every session is built around full GDPR compliance and the four obligations of the EU AI Act: literacy, transparency, human oversight, and traceability. By the end, your team does not just use AI; they use it responsibly, and you have documented proof of compliance with Article 4.</p>
+            </div>
+
             <div class="row">
               <div class="col-md-6">
-                <div class="trust-item"><i class="bi bi-check-circle-fill"></i><div><strong>Start small.</strong> A short, fixed-fee assessment: I look at how you work today and show you where AI can take the load off, in transparent, trustworthy ways, with what each option would take and where the risks are. You get a clear map before committing to anything bigger.</div></div>
-                <div class="trust-item"><i class="bi bi-check-circle-fill"></i><div><strong>Transition engagement.</strong> A defined period, usually one to two months, to solve a concrete AI problem: I build the first trustworthy, human-supervised pipelines with your team and leave them able to run it.</div></div>
-                <div class="trust-item"><i class="bi bi-check-circle-fill"></i><div><strong>Stay on, if useful.</strong> When you want continuity, I continue as your fractional AI officer, without a full-time hire.</div></div>
+                <div class="hiw-level level-2">
+                  <div class="hiw-level-num">Step 2, option A</div>
+                  <h4>Fractional AI Officer: ongoing expert presence</h4>
+                  <p>For teams that need continuous, adaptive support after the training. I act as your fractional AI officer, available according to your pace and your needs, keeping your AI use current and compliant as your operations evolve and as the regulatory environment develops. No full-time hire needed.</p>
+                </div>
               </div>
               <div class="col-md-6">
-                <div class="trust-item"><i class="bi bi-check-circle-fill"></i><div><strong>Two ways to agree the fee.</strong> A simple fixed price, or I share the risk and take a portion of the savings I create, measured against a baseline we agree together up front. Either way, you know what you are committing to before we begin.</div></div>
-                <div class="trust-item"><i class="bi bi-check-circle-fill"></i><div><strong>Value you can measure.</strong> Where it matters, we measure the before and after on a real task, so the result is a number you can see, not a promise.</div></div>
-                <div class="trust-item"><i class="bi bi-check-circle-fill"></i><div><strong>On site or remote.</strong> Based in Luxembourg, available across the region and beyond for the right engagement.</div></div>
+                <div class="hiw-level level-3">
+                  <div class="hiw-level-num">Step 2, option B</div>
+                  <h4>Transition Management: direct leadership of the transformation</h4>
+                  <p>For teams that need someone to step in and lead the change end to end. I come in for a defined period, typically one to two months, take direct responsibility for the AI transition, build the first compliant pipelines with your team, and hand over a fully operational, AI Act-compliant setup. Two fee options: fixed price, or fixed costs plus a share of the savings I generate.</p>
+                </div>
               </div>
             </div>
+
             <div style="text-align:center;margin-top:18px;">
               <a href="#contact" class="hero-cta" style="margin-top:0;">Let us scope it together</a>
             </div>
