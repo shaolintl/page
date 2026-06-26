@@ -148,6 +148,31 @@
       .hiw-level.level-3 .hiw-level-num { color: #1e7e45; }
       .hiw-level h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: #0f2c40; }
       .hiw-level p { font-size: 14px; color: #475569; margin: 0; line-height: 1.65; }
+
+      /* Example section */
+      .example-flow { display: flex; align-items: stretch; gap: 0; margin-top: 10px; }
+      .example-panel { flex: 1; border-radius: 10px; padding: 22px 24px; font-size: 13.5px; line-height: 1.6; }
+      .example-panel.problem { background: #f8fafc; border: 1.5px solid #cbd5e1; color: #334155; }
+      .example-panel.result  { background: #f0faf4; border: 1.5px solid #86efac; color: #1e293b; }
+      .example-panel .ep-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 10px; }
+      .example-panel.problem .ep-label { color: #64748b; }
+      .example-panel.result  .ep-label { color: #1e7e45; }
+      .example-panel .ep-from { font-size: 11px; color: #94a3b8; margin-bottom: 12px; }
+      .example-checklist { margin-top: 16px; list-style: none; padding: 0; border-top: 1px solid #bbf7d0; padding-top: 14px; }
+      .example-checklist li { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: #166534; margin-bottom: 7px; }
+      .example-checklist li .bi { flex-shrink: 0; font-size: 15px; margin-top: 1px; }
+
+      .example-arrow { display: flex; align-items: center; justify-content: center; padding: 0 10px; flex-shrink: 0; flex-direction: column; gap: 4px; }
+      .example-arrow .arr-line { font-size: 26px; color: #94a3b8; line-height: 1; }
+
+      .example-box { width: 230px; flex-shrink: 0; background: #0f2c40; border-radius: 12px; padding: 20px 18px; display: flex; flex-direction: column; gap: 12px; align-self: center; }
+      .example-box .eb-title { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: rgba(255,255,255,0.5); margin-bottom: 2px; text-align: center; }
+      .example-offer { background: rgba(255,255,255,0.08); border-radius: 8px; padding: 11px 13px; }
+      .example-offer .eo-tag { font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 5px; }
+      .example-offer.train .eo-tag { color: #60c8f0; }
+      .example-offer.fcaio .eo-tag { color: #fbbf71; }
+      .example-offer.trans .eo-tag { color: #6ee7a0; }
+      .example-offer p { font-size: 11.5px; color: rgba(255,255,255,0.82); margin: 0; line-height: 1.45; }
     </style>
 
     <!-- =======================================================
@@ -170,6 +195,7 @@
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#howiwork" class="nav-link scrollto"><i class="bx bx-check-circle"></i> <span>How I Work</span></a></li>
+          <li><a href="#example" class="nav-link scrollto"><i class="bx bx-bulb"></i> <span>In Action</span></a></li>
           <li><a href="#trust" class="nav-link scrollto"><i class="bx bx-shield-quarter"></i> <span>Trust</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Media Center</span></a></li>
           <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-message-rounded-dots"></i> <span>Testimonials</span></a></li>
@@ -531,6 +557,69 @@
 
         </div>
       </section><!-- End How I Work Section -->
+
+      <!-- ======= In Action Section ======= -->
+      <section id="example" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>In Action</h2>
+            <p>A customer complaint. A policy to check. A response that has to be right. This is what AI-assisted work looks like when it is done compliantly.</p>
+          </div>
+
+          <div class="example-flow" data-aos="fade-up">
+
+            <!-- Problem -->
+            <div class="example-panel problem">
+              <div class="ep-label">&#9993; Incoming complaint</div>
+              <div class="ep-from">From: sophie.martin@clientco.com &nbsp;&middot;&nbsp; To: support@yourcompany.com</div>
+              <p>"Hello, I cancelled my subscription on March 14th and received a cancellation confirmation. Despite this, I was charged again on April 1st. I have been a customer for three years and I expect this to be refunded immediately. If this is not resolved today I will be leaving a public review."</p>
+            </div>
+
+            <!-- Arrow left -->
+            <div class="example-arrow">
+              <span class="arr-line">&#8594;</span>
+            </div>
+
+            <!-- The box -->
+            <div class="example-box">
+              <div class="eb-title">How you get there</div>
+              <div class="example-offer train">
+                <div class="eo-tag"><i class="bx bx-chalkboard"></i> &nbsp;10-hour course</div>
+                <p>Your team learns to produce this: accurate, traceable, compliant. Using the tools you already have.</p>
+              </div>
+              <div class="example-offer fcaio">
+                <div class="eo-tag"><i class="bx bx-user-check"></i> &nbsp;Fractional AI Officer</div>
+                <p>I keep guiding your team as cases grow more complex and the regulation evolves.</p>
+              </div>
+              <div class="example-offer trans">
+                <div class="eo-tag"><i class="bx bx-briefcase"></i> &nbsp;Transition Management</div>
+                <p>I build the full pipeline with your team and hand over a working, compliant setup.</p>
+              </div>
+            </div>
+
+            <!-- Arrow right -->
+            <div class="example-arrow">
+              <span class="arr-line">&#8594;</span>
+            </div>
+
+            <!-- Result -->
+            <div class="example-panel result">
+              <div class="ep-label">&#10003; Draft reply — ready for human review</div>
+              <p>"Dear Ms Martin, thank you for contacting us. We have located your cancellation request of March 14th and confirm it was processed correctly on that date. The charge of April 1st was applied in error and will be refunded in full within 5 business days. We sincerely apologise for this and value your loyalty as a long-standing customer."</p>
+              <ul class="example-checklist">
+                <li><i class="bi bi-check-circle-fill"></i> Cancellation date verified against account record</li>
+                <li><i class="bi bi-check-circle-fill"></i> Refund commitment verified against refund policy §4.2</li>
+                <li><i class="bi bi-check-circle-fill"></i> Timeline (5 days) verified against processing SLA</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <p style="text-align:center;margin-top:22px;font-size:13px;color:#64748b;">Every claim in the draft is linked to a source your team can check before sending. That is what the EU AI Act requires. That is what the course teaches.</p>
+
+        </div>
+      </section><!-- End In Action Section -->
 
       <!-- ======= Trust Section ======= -->
       <section id="trust" class="services">
