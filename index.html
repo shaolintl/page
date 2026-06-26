@@ -126,17 +126,16 @@
       /* AI Act urgency badge */
       .ai-act-banner { display: inline-block; background: #c0392b; color: #fff; font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 4px; margin-bottom: 14px; letter-spacing: 0.3px; }
 
-      /* Hero proof pillars */
-      .hero-pillars { display: flex; gap: 14px; margin-top: 28px; max-width: 680px; }
-      .hero-pillar { flex: 1; background: rgba(255,255,255,0.88); border: 1px solid #d9e8f0; border-radius: 10px; padding: 14px 16px; }
-      .hero-pillar .pi-icon { font-size: 20px; margin-bottom: 6px; display: block; }
-      .hero-pillar .pi-icon.trainer { color: #149ddd; }
-      .hero-pillar .pi-icon.knowledge { color: #e8860a; }
-      .hero-pillar .pi-icon.practice { color: #1e7e45; }
-      .hero-pillar h5 { font-size: 11.5px; font-weight: 700; color: #0f2c40; margin-bottom: 7px; text-transform: uppercase; letter-spacing: 0.5px; }
+      /* Hero proof pillars — shield shape */
+      .hero-pillars { display: flex; gap: 16px; margin-top: 28px; max-width: 700px; align-items: flex-start; }
+      .hero-pillar { flex: 1; min-height: 235px; clip-path: polygon(0 0, 100% 0, 100% 73%, 50% 100%, 0 73%); padding: 18px 16px 80px; text-align: center; }
+      .hero-pillar.p1 { background: #149ddd; }
+      .hero-pillar.p2 { background: #d4790a; }
+      .hero-pillar.p3 { background: #1e7e45; }
+      .hero-pillar .pi-icon { font-size: 26px; margin-bottom: 7px; display: block; color: rgba(255,255,255,0.9); }
+      .hero-pillar h5 { font-size: 10.5px; font-weight: 700; color: #fff; margin-bottom: 9px; text-transform: uppercase; letter-spacing: 0.7px; }
       .hero-pillar ul { list-style: none; padding: 0; margin: 0; }
-      .hero-pillar ul li { font-size: 11.5px; color: #45505b; margin-bottom: 3px; padding-left: 12px; position: relative; line-height: 1.4; }
-      .hero-pillar ul li::before { content: '·'; position: absolute; left: 0; font-weight: 700; color: #149ddd; }
+      .hero-pillar ul li { font-size: 11px; color: rgba(255,255,255,0.92); margin-bottom: 5px; line-height: 1.4; }
 
       /* How I Work levels */
       .hiw-level { border-radius: 10px; padding: 22px 26px; margin-bottom: 16px; border-left: 5px solid; }
@@ -184,8 +183,8 @@
     <section id="hero" class="d-flex flex-column justify-content-center">
       <div class="container" data-aos="zoom-in" data-aos-delay="100">
         <h1>Tomer Libal</h1>
-        <p>I am a(n) <span class="typed" data-typed-items="AI transition manager, AI trainer, fractional AI officer, builder of human-supervised AI"></span></p>
-        <p class="hero-tagline">I come in for a defined period, build trustworthy, human-supervised AI together with your team, and leave them able to run it.</p>
+        <p>I am a(n) <span class="typed" data-typed-items="AI trainer, AI transition manager, fractional AI officer, builder of AI Act-compliant AI"></span></p>
+        <p class="hero-tagline">I train your teams to use AI compliantly, then lead the transition or stay on as your fractional AI officer. The EU AI Act is in force from August 2026. I make sure you are ready.</p>
         <div class="social-links">
           <a href="https://dblp.org/pid/61/8336.html"><img src="assets/img/DBLP.png" alt="DBLP profile"></a>
           <a href="https://scholar.google.com/citations?user=f-MQc4MAAAAJ&hl=en"><img src="assets/img/GS.png" alt="Google Scholar profile"></a>
@@ -195,8 +194,8 @@
         <a href="#contact" class="hero-cta">Let's talk</a>
 
         <div class="hero-pillars">
-          <div class="hero-pillar">
-            <span class="pi-icon trainer"><i class="bi bi-patch-star-fill"></i></span>
+          <div class="hero-pillar p1">
+            <span class="pi-icon"><i class="bi bi-patch-star-fill"></i></span>
             <h5>Excellence in Training</h5>
             <ul>
               <li>9.13 / 10 overall satisfaction rate</li>
@@ -204,16 +203,16 @@
               <li>12+ years · 50+ courses</li>
             </ul>
           </div>
-          <div class="hero-pillar">
-            <span class="pi-icon knowledge"><i class="bi bi-patch-star-fill"></i></span>
+          <div class="hero-pillar p2">
+            <span class="pi-icon"><i class="bi bi-patch-star-fill"></i></span>
             <h5>Excellence in AI</h5>
             <ul>
               <li>PhD in Computer Science · 18 years in AI · +€600k in research grants</li>
               <li>Reviewer: Horizon Europe, international journals, PhD juries</li>
             </ul>
           </div>
-          <div class="hero-pillar">
-            <span class="pi-icon practice"><i class="bi bi-patch-star-fill"></i></span>
+          <div class="hero-pillar p3">
+            <span class="pi-icon"><i class="bi bi-patch-star-fill"></i></span>
             <h5>Excellence in Practice</h5>
             <ul>
               <li>Early team lead, Quigo Technologies · acquired by AOL for $360M (2007)</li>
