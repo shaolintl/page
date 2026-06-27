@@ -129,6 +129,18 @@
       /* Hero proof pillars — shield shape */
       .hero-pillars { display: flex; gap: 16px; margin-top: 28px; max-width: 720px; align-items: flex-start; }
       .hero-pillar { flex: 1; min-height: 400px; clip-path: polygon(0 0, 100% 0, 100% 73%, 50% 100%, 0 73%); padding: 26px 22px 130px; text-align: center; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border: 1px solid rgba(255,255,255,0.28); }
+
+      @media (max-width: 768px) {
+        .hero-pillars { flex-direction: column; max-width: 100%; gap: 12px; }
+        .hero-pillar { min-height: 0; clip-path: polygon(0 0, 100% 0, 100% 78%, 50% 100%, 0 78%); padding: 22px 20px 80px; }
+        .hero-pillar .pi-icon { font-size: 28px; margin-bottom: 8px; }
+        .hero-pillar h5 { font-size: 13px; margin-bottom: 8px; }
+        .hero-pillar ul li { font-size: 12px; margin-bottom: 5px; }
+        #hero { padding-top: 90px !important; height: auto !important; min-height: 100vh; }
+        #hero .container { padding-top: 0 !important; }
+        #hero h1 { font-size: 28px; }
+        #hero p { font-size: 14px; }
+      }
       .hero-pillar.p1 { background: rgba(10,80,120,0.48); }
       .hero-pillar.p2 { background: rgba(140,75,5,0.48); }
       .hero-pillar.p3 { background: rgba(15,80,40,0.48); }
