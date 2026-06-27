@@ -162,7 +162,8 @@
       .hiw-level p { font-size: 14px; color: #475569; margin: 0; line-height: 1.65; }
 
       /* Example section */
-      .example-flow { display: flex; align-items: stretch; gap: 0; margin-top: 10px; }
+      .example-flow-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-top: 10px; }
+      .example-flow { display: flex; align-items: stretch; gap: 0; min-width: 860px; }
       .example-panel { flex: 1; border-radius: 10px; padding: 22px 24px; font-size: 13.5px; line-height: 1.6; }
       .example-panel.problem { background: #f8fafc; border: 1.5px solid #cbd5e1; color: #334155; }
       .example-panel.result  { background: #f0faf4; border: 1.5px solid #86efac; color: #1e293b; }
@@ -579,7 +580,8 @@
             <p>A customer complaint — one example from thousands across every industry. The same approach applies to contract queries, procurement checks, HR policy questions, research briefings, and any task where an answer must be accurate and traceable before it leaves the building.</p>
           </div>
 
-          <div class="example-flow" data-aos="fade-up">
+          <div class="example-flow-wrapper" data-aos="fade-up">
+          <div class="example-flow">
 
             <!-- Problem -->
             <div class="example-panel problem">
@@ -626,6 +628,7 @@
               </ul>
             </div>
 
+          </div>
           </div>
 
           <p style="text-align:center;margin-top:22px;font-size:13px;color:#64748b;">Every claim in the draft is linked to a source your team can check before sending. That is what the EU AI Act requires. That is what the course teaches.</p>
