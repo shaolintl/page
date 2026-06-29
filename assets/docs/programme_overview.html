@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Training for Finance Teams — Programme Overview</title>
+<style>
+  @page { size: A4; margin: 18mm 20mm 18mm 20mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; color: #1e293b; line-height: 1.55; background: #fff; }
+
+  .header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 14px; border-bottom: 2px solid #b45309; margin-bottom: 20px; }
+  .header-left h1 { font-size: 19px; font-weight: 800; color: #0f2c40; line-height: 1.2; }
+  .header-left .sector-tag { display: inline-block; background: #fef3e2; color: #b45309; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; padding: 2px 10px; border-radius: 20px; margin-top: 6px; }
+  .header-right { text-align: right; }
+  .header-right .trainer-name { font-size: 13px; font-weight: 700; color: #0f2c40; }
+  .header-right .trainer-meta { font-size: 10px; color: #64748b; margin-top: 3px; line-height: 1.5; }
+
+  .intro { background: #fdf8f2; border-left: 4px solid #b45309; padding: 12px 16px; border-radius: 0 6px 6px 0; margin-bottom: 20px; font-size: 11.5px; color: #334155; line-height: 1.6; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+
+  .section-label { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #b45309; margin-bottom: 8px; }
+  .box { border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 16px; }
+  .box h3 { font-size: 12px; font-weight: 700; color: #0f2c40; margin-bottom: 10px; }
+
+  .obligation-row { display: flex; gap: 10px; margin-bottom: 8px; align-items: flex-start; }
+  .ob-tag { flex-shrink: 0; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 2px 8px; border-radius: 4px; margin-top: 1px; }
+  .ob-tag.literacy    { background: #e7f0fa; color: #1f5fa6; }
+  .ob-tag.transparency { background: #fef3e2; color: #b45309; }
+  .ob-tag.oversight   { background: #e9f5ee; color: #1e6e3e; }
+  .ob-tag.traceability { background: #f3e8ff; color: #6d28d9; }
+  .ob-text { font-size: 11px; color: #334155; line-height: 1.5; }
+
+  .example-box { background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; padding: 14px 16px; margin-bottom: 20px; }
+  .example-box h3 { font-size: 12px; font-weight: 700; color: #0f2c40; margin-bottom: 10px; }
+  .example-steps { display: flex; gap: 0; align-items: stretch; }
+  .ex-step { flex: 1; padding: 10px 12px; background: #fff; border: 1px solid #e2e8f0; border-radius: 6px; font-size: 10.5px; color: #334155; line-height: 1.5; }
+  .ex-step .step-num { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #94a3b8; margin-bottom: 4px; }
+  .ex-arrow { display: flex; align-items: center; padding: 0 6px; color: #94a3b8; font-size: 14px; flex-shrink: 0; }
+
+  .formats-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+  .format-card { border-radius: 8px; padding: 14px 16px; }
+  .format-card.full { background: #f0f7ff; border: 1px solid #bfdbfe; }
+  .format-card.advanced { background: #f5f3ff; border: 1px solid #ddd6fe; }
+  .format-card .format-label { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+  .format-card.full .format-label { color: #1d4ed8; }
+  .format-card.advanced .format-label { color: #6d28d9; }
+  .format-card h4 { font-size: 12px; font-weight: 700; color: #0f2c40; margin-bottom: 6px; }
+  .format-card p { font-size: 10.5px; color: #475569; line-height: 1.5; }
+
+  .outcomes-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 20px; }
+  .outcome-item { display: flex; gap: 8px; align-items: flex-start; font-size: 11px; color: #334155; }
+  .outcome-item .tick { color: #1e7e45; font-size: 13px; flex-shrink: 0; margin-top: 0px; }
+
+  .footer { border-top: 1px solid #e2e8f0; padding-top: 12px; display: flex; justify-content: space-between; align-items: center; }
+  .footer-left { font-size: 10px; color: #64748b; line-height: 1.6; }
+  .footer-right { text-align: right; font-size: 10px; color: #64748b; line-height: 1.6; }
+  .footer-right a { color: #149ddd; text-decoration: none; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-left">
+    <h1>AI Training for Finance Teams</h1>
+    <span class="sector-tag">Finance &middot; Luxembourg</span>
+  </div>
+  <div class="header-right">
+    <div class="trainer-name">Tomer Libal, Ph.D.</div>
+    <div class="trainer-meta">
+      AI Trainer &middot; House of Training &middot; Digital Learning Hub<br>
+      Tenured professor &middot; 50+ courses &middot; 9.13/10 satisfaction<br>
+      tomer@libal.info &middot; tomer.libal.info
+    </div>
+  </div>
+</div>
+
+<!-- Intro -->
+<div class="intro">
+  Your teams are already using AI. This course trains them to use it in a way that is documented, explainable, and traceable — satisfying all four EU AI Act obligations coming into force in August 2026. Participants build real AI agents during the session, using the tools already available in their environment. They leave with agents where every output cites its source and no result is acted on before a human has reviewed and approved it.
+</div>
+
+<!-- What the course covers -->
+<div class="two-col">
+  <div class="box">
+    <div class="section-label">What the course covers</div>
+    <div class="obligation-row">
+      <span class="ob-tag literacy">Literacy</span>
+      <span class="ob-text">Understanding how AI tools work, where they are reliable, and where human judgement is required.</span>
+    </div>
+    <div class="obligation-row">
+      <span class="ob-tag transparency">Transparency</span>
+      <span class="ob-text">Producing outputs your team can read, understand, and explain to a colleague, a client, or an auditor.</span>
+    </div>
+    <div class="obligation-row">
+      <span class="ob-tag oversight">Human oversight</span>
+      <span class="ob-text">Building a defined human checkpoint into every workflow — nothing is acted on until a person has reviewed and approved the result.</span>
+    </div>
+    <div class="obligation-row">
+      <span class="ob-tag traceability">Traceability</span>
+      <span class="ob-text">Every output generated by the agent cites the source it drew from. The full chain of reasoning is logged and auditable.</span>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="section-label">What participants leave with</div>
+    <div class="outcomes-grid" style="margin-bottom:0;">
+      <div class="outcome-item"><span class="tick">&#10003;</span><span>An AI agent they built themselves, in their own environment, ready to use on Monday</span></div>
+      <div class="outcome-item"><span class="tick">&#10003;</span><span>Every agent output automatically cites its source — traceability by design, not by policy</span></div>
+      <div class="outcome-item"><span class="tick">&#10003;</span><span>A defined human review step built into the workflow before anything is acted on</span></div>
+      <div class="outcome-item"><span class="tick">&#10003;</span><span>A certificate of completion per participant, documenting training against all four AI Act obligations</span></div>
+      <div class="outcome-item"><span class="tick">&#10003;</span><span>A one-page training record suitable for internal compliance files or audit review</span></div>
+      <div class="outcome-item"><span class="tick">&#10003;</span><span>The ability to explain, to any stakeholder, exactly how AI was used and what a human verified</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Working example -->
+<div class="example-box">
+  <div class="section-label">Working example — AML transaction monitoring alert</div>
+  <div class="example-steps">
+    <div class="ex-step">
+      <div class="step-num">Input</div>
+      Six cash deposits below the identification threshold, flagged by the monitoring system. Compliance officer task: assess the pattern.
+    </div>
+    <div class="ex-arrow">&#8594;</div>
+    <div class="ex-step">
+      <div class="step-num">Agent</div>
+      Retrieves the applicable regulation, analyses the transaction pattern, identifies structuring, and drafts an assessment memo with every claim cited.
+    </div>
+    <div class="ex-arrow">&#8594;</div>
+    <div class="ex-step">
+      <div class="step-num">Human checkpoint</div>
+      Compliance officer reviews the memo and all citations before any decision is taken or filing initiated.
+    </div>
+    <div class="ex-arrow">&#8594;</div>
+    <div class="ex-step">
+      <div class="step-num">Output</div>
+      Documented assessment with full audit trail. Every step logged. Explainable to any reviewer.
+    </div>
+  </div>
+</div>
+
+<!-- Formats -->
+<div class="section-label">Course formats</div>
+<div class="formats-row">
+  <div class="format-card full">
+    <div class="format-label">10 hours &middot; For all levels</div>
+    <h4>Full course</h4>
+    <p>Step-by-step guidance from first principles. No prior AI experience needed. Participants build their agent from scratch, with the trainer guiding each step. Delivered over two half-days. Suitable for mixed teams including participants who have never used AI tools professionally.</p>
+  </div>
+  <div class="format-card advanced">
+    <div class="format-label">6 hours &middot; For AI users</div>
+    <h4>Accelerated edition</h4>
+    <p>Same content and the same working example, at a faster pace. Designed for participants who already use AI tools regularly and do not need the foundational sections. Delivered in a single day or two shorter sessions. Suitable for teams where some members are already comfortable with AI assistants.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <div class="footer-left">
+    Also available: AI Act and Change Management for Managers (5h) &middot; AI in Practice Workshop (3h)<br>
+    Delivered at House of Training and Digital Learning Hub, Luxembourg, and available for in-house delivery.
+  </div>
+  <div class="footer-right">
+    Tomer Libal, Ph.D.<br>
+    <a href="mailto:tomer@libal.info">tomer@libal.info</a> &middot; <a href="https://tomer.libal.info">tomer.libal.info</a><br>
+    <a href="https://calendar.app.google/nBgpxMxQivParBup8">Book a 30-minute call</a>
+  </div>
+</div>
+
+</body>
+</html>
