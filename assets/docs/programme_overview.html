@@ -6,7 +6,8 @@
 <style>
   @page { size: A4; margin: 18mm 20mm 18mm 20mm; }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; color: #1e293b; line-height: 1.55; background: #fff; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; color: #1e293b; line-height: 1.55; background: #fff; padding: 18mm 20mm; }
+  @media print { body { padding: 0; } }
 
   .header { display: flex; justify-content: space-between; align-items: flex-start; padding-bottom: 14px; border-bottom: 2px solid #b45309; margin-bottom: 20px; }
   .header-left h1 { font-size: 19px; font-weight: 800; color: #0f2c40; line-height: 1.2; }
