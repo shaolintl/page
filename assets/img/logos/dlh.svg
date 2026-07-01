@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en-US" data-website-id="1" data-main-object="ir.ui.view(236,)" data-add2cart-redirect="1">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="generator" content="Odoo"/>
+            
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Page Not Found | Digital Learning Hub"/>
+        <meta property="og:site_name" content="Digital Learning Hub"/>
+        <meta property="og:url" content="https://www.dlh.lu/themes/custom/dlh/logo.svg"/>
+        <meta property="og:image" content="https://www.dlh.lu/web/image/website/1/logo?unique=8e84d0f"/>
+            
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Page Not Found | Digital Learning Hub"/>
+        <meta name="twitter:image" content="https://www.dlh.lu/web/image/website/1/logo/300x300?unique=8e84d0f"/>
+        
+        <link rel="canonical" href="https://www.dlh.lu/themes/custom/dlh/logo.svg"/>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""/>
+        <title>404 - Not found | Digital Learning Hub</title>
+        <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=8e84d0f"/>
+        <link rel="preload" href="/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin=""/>
+        <link type="text/css" rel="stylesheet" href="/web/assets/1/27cd694/web.assets_frontend.min.css"/>
+        <script id="web.layout.odooscript" type="text/javascript">
+            var odoo = {
+                csrf_token: "660a8929cd2f044d0e8ce0def4c673ee75899688o1814470910",
+                debug: "",
+            };
+        </script>
+        <script type="text/javascript">
+            odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_public": true, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "currencies": {"124": {"symbol": "\u20ac", "position": "after", "digits": [69, 2]}, "1": {"symbol": "$", "position": "before", "digits": [69, 2]}}, "bundle_params": {"lang": "en_US", "website_id": 1}, "websocket_worker_version": "17.0-3", "translationURL": "/website/translations", "cache_hashes": {"translations": "d062daba372cd78f931cc773bc74a491ebde5d86"}, "geoip_country_code": "LU", "geoip_phone_code": 352, "lang_url_code": "en"};
+            if (!/(^|;\s)tz=/.test(document.cookie)) {
+                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                document.cookie = `tz=${userTZ}; path=/`;
+            }
+        </script>
+        <script type="text/javascript" defer="defer" src="/web/assets/1/51d9536/web.assets_frontend_minimal.min.js" onerror="__odooAssetError=1"></script>
+        <script type="text/javascript" defer="defer" data-src="/web/assets/1/b066abf/web.assets_frontend_lazy.min.js" onerror="__odooAssetError=1"></script>
+        
+        
+    </head>
+            
+            <a href="#wrap" class="skip-to-content">Skip to content</a>
+    <body>
+
+
+
+        <div id="wrapwrap" class="   ">
+                <header id="top" data-anchor="true" data-name="Header" data-extra-items-toggle-aria-label="Extra items button" class="  " style=" ">
+                    
+    <nav data-name="Navbar" aria-label="Main" class="navbar navbar-expand-lg navbar-light o_colored_level o_cc d-none d-lg-block shadow-sm ">
+        
+
+            <div id="o_main_nav" class="o_main_nav container">
+                
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo me-4">
+            
+            <span role="img" aria-label="Logo of Digital Learning Hub" title="Digital Learning Hub"><img src="/web/image/website/1/logo/Digital%20Learning%20Hub?unique=8e84d0f" class="img img-fluid" width="95" height="40" alt="Digital Learning Hub" loading="lazy"/></span>
+        </a>
+    
+                
+    <ul id="top_menu" role="menu" class="nav navbar-nav top_menu o_menu_loading me-auto">
+        
+
+                    
+    <li role="presentation" class="nav-item">
+        <a href="/shop" class="nav-link ">
+                <span>Courses</span>
+            </a>
+        </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   ">
+            <span>Academy</span>
+        </a>
+        <ul role="menu" class="dropdown-menu ">
+    <li role="presentation" class="">
+        <a href="/academy" class="dropdown-item ">
+                <span>Overview</span>
+            </a>
+        </li>
+    <li role="presentation" class="">
+        <a href="/ai-academy" class="dropdown-item ">
+                <span>Artificial Intelligence</span>
+            </a>
+        </li>
+    <li role="presentation" class="">
+        <a href="/cs-academy" class="dropdown-item ">
+                <span>Cybersecurity</span>
+            </a>
+        </li>
+    <li role="presentation" class="">
+        <a href="/qc-academy" class="dropdown-item ">
+                <span>Quantum Computing</span>
+            </a>
+        </li>
+        </ul>
+        
+    </li>
+    <li role="presentation" class="nav-item">
+        <a href="/eofai" class="nav-link ">
+                <span>Elements of AI</span>
+            </a>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a href="/about" class="nav-link ">
+                <span>About</span>
+            </a>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a href="/contactus" class="nav-link ">
+                <span>Contact</span>
+            </a>
+        </li>
+                
+    </ul>
+                
+                <ul class="navbar-nav align-items-center gap-2 flex-shrink-0 justify-content-end ps-3">
+                    
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart  ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background btn position-relative rounded-circle p-1 text-center text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-primary position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                    
+                    
+                    
+                    
+        <li data-name="Language Selector" class="o_header_language_selector ">
+        
+        
+        </li>
+                    
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary">Sign in</a>
+            </li>
+                    
+        
+        
+                    
+                </ul>
+            </div>
+        
+    </nav>
+    <nav data-name="Navbar" aria-label="Mobile" class="navbar  navbar-light o_colored_level o_cc o_header_mobile d-block d-lg-none shadow-sm px-0 ">
+        
+
+        <div class="o_main_nav container flex-wrap justify-content-between">
+            
+    <a data-name="Navbar Logo" href="/" class="navbar-brand logo ">
+            
+            <span role="img" aria-label="Logo of Digital Learning Hub" title="Digital Learning Hub"><img src="/web/image/website/1/logo/Digital%20Learning%20Hub?unique=8e84d0f" class="img img-fluid" width="95" height="40" alt="Digital Learning Hub" loading="lazy"/></span>
+        </a>
+    
+            <ul class="o_header_mobile_buttons_wrap navbar-nav flex-row align-items-center gap-2 mb-0">
+        
+            <li class=" divider d-none"></li> 
+            <li class="o_wsale_my_cart  ">
+                <a href="/shop/cart" aria-label="eCommerce cart" class="o_navlink_background_hover btn position-relative rounded-circle border-0 p-1 text-reset">
+                    <div class="">
+                        <i class="fa fa-shopping-cart fa-stack"></i>
+                        <sup class="my_cart_quantity badge text-bg-primary position-absolute top-0 end-0 mt-n1 me-n1 rounded-pill d-none" data-order-id="">0</sup>
+                    </div>
+                </a>
+            </li>
+        
+                <li class="o_not_editable">
+                    <button class="nav-link btn me-auto p-2 o_not_editable" type="button" data-bs-toggle="offcanvas" data-bs-target="#top_menu_collapse_mobile" aria-controls="top_menu_collapse_mobile" aria-expanded="false" aria-label="Open the menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </li>
+            </ul>
+            <div id="top_menu_collapse_mobile" class="offcanvas offcanvas-end o_navbar_mobile">
+                <div class="offcanvas-header justify-content-end o_not_editable">
+                    <button type="button" class="nav-link btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column justify-content-between h-100 w-100">
+                    <ul class="navbar-nav">
+                        
+                        
+                        
+    <ul role="menu" class="nav navbar-nav top_menu  ">
+        
+
+                            
+    <li role="presentation" class="nav-item">
+        <a href="/shop" class="nav-link ">
+                <span>Courses</span>
+            </a>
+        </li>
+    <li role="presentation" class="nav-item dropdown ">
+        <a data-bs-toggle="dropdown" href="#" role="menuitem" class="nav-link dropdown-toggle   d-flex justify-content-between align-items-center">
+            <span>Academy</span>
+        </a>
+        <ul role="menu" class="dropdown-menu position-relative rounded-0 o_dropdown_without_offset">
+    <li role="presentation" class="">
+        <a href="/academy" class="dropdown-item ">
+                <span>Overview</span>
+            </a>
+        </li>
+    <li role="presentation" class="">
+        <a href="/ai-academy" class="dropdown-item ">
+                <span>Artificial Intelligence</span>
+            </a>
+        </li>
+    <li role="presentation" class="">
+        <a href="/cs-academy" class="dropdown-item ">
+                <span>Cybersecurity</span>
+            </a>
+        </li>
+    <li role="presentation" class="">
+        <a href="/qc-academy" class="dropdown-item ">
+                <span>Quantum Computing</span>
+            </a>
+        </li>
+        </ul>
+        
+    </li>
+    <li role="presentation" class="nav-item">
+        <a href="/eofai" class="nav-link ">
+                <span>Elements of AI</span>
+            </a>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a href="/about" class="nav-link ">
+                <span>About</span>
+            </a>
+        </li>
+    <li role="presentation" class="nav-item">
+        <a href="/contactus" class="nav-link ">
+                <span>Contact</span>
+            </a>
+        </li>
+                        
+    </ul>
+                        
+                        
+                    </ul>
+                    <ul class="navbar-nav gap-2 mt-3 w-100">
+                        
+            <li class=" o_no_autohide_item">
+                <a href="/web/login" class="btn btn-outline-secondary w-100">Sign in</a>
+            </li>
+                        
+        
+        
+                        
+        <li data-name="Language Selector" class="o_header_language_selector ">
+        
+        
+        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </nav>
+    
+        </header>
+                <main>
+                    
+
+            <div id="wrap" class="oe_structure oe_empty">
+                <section class="s_text_image pt32 pb32 o_colored_level expert-panels image_text_section" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 pt16 pb16 o_draggable o_colored_level">
+                                <img src="/dlh_courses/static/src/img/404_error.png" class="img img-fluid mx-auto" alt="" loading="lazy" data-mimetype="image/jpeg" data-original-src="/dlh_courses/static/src/img/404_error.png" data-mimetype-before-conversion="image/png"/>
+                            </div>
+                            <div class="col-lg-6 pt16 pb16 o_colored_level text_right">
+                                <h2>We couldn't find the page you're looking for</h2>
+                                <p class="o_default_snippet_text">
+                                The URL you entered does not seem to exist. If you believe that this is an error, please <a href="/shop/contactus">send us a message</a>.
+                                </p>
+
+                                    <a href="https://www.dlh.lu" class="btn btn-secondary" data-bs-original-title="" title="">Return home <span class="sparrow"><i class="fa fa-regular fa-arrow-right" aria-hidden="true"></i></span></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        
+        <div id="o_shared_blocks" class="oe_unremovable"></div>
+                </main>
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc ">
+                    <div id="footer" class="oe_structure oe_structure_solo" style="">
+                    <div class="s_text_block pt16 pb32 pb0 mb-3" data-snippet="s_text_block" data-name="Logo" style="background-image: none;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-9 col-lg-6 o_colored_level">
+                                    <div class="s_social_media o_not_editable no_icon_color" data-snippet="s_social_media" data-name="Social Media">
+                                         <ul class="list-unstyled">
+                                            <li>
+                                                <a href="https://www.linkedin.com/company/dlhluxembourg" class="s_social_media_linkedin" target="_blank" aria-label="LinkedIn">
+                                                    <i class="fa fa-2x o_editable_media m-1 fa-linkedin"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.facebook.com/dlhluxembourg" class="s_social_media_facebook" target="_blank" aria-label="Facebook">
+                                                    <i class="fa fa-2x fa-facebook o_editable_media m-1"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                            <a href="https://www.instagram.com/dlhluxembourg/" class="s_social_media_instagram" target="_blank" aria-label="Instagram">
+                                                <i class="fa fa-2x fa-instagram o_editable_media m-1"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-6 o_colored_level" style="">
+                                <div>
+                                    <a href="/newsletter" class="btn btn-primary" style="border-radius: 0.4rem;padding: 0.5rem 0.5rem 0.5rem;">Subscribe to our newsletter</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <section class="s_text_block pt0 pb0" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                            <nav>
+                                <div class="container">
+                                    <div class="row mb-3">
+                                        <div class="col-lg-3 o_colored_level pt0 pb0">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="/shop"> Courses</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/academy">Academy</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/about">About</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/faq">FAQ</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/contactus">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="o_colored_level col-lg-3 pt0" style="">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="/contactus">Become a trainer</a>
+                                                    <br/>
+                                                </li>
+                                                <li>
+                                                    <a href="/press">Press</a>
+                                                    <br/>
+                                                </li>
+                                                <li>
+                                                    <a href="/daily_schedule">Schedule</a>
+                                                    <br/>
+                                                </li>
+                                                <li>
+                                                    <a href="/eofai">Elements of AI</a>
+                                                    <br/>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div id="connect" class="col-lg-3 o_colored_level pt0">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <i class="fa fa-envelope fa-fw me-2"></i>
+                                                    <span>
+                                                        <a href="mailto:info@dlh.lu">
+                                                            info@dlh.lu
+                                                        </a>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-phone fa-fw me-2"></i>
+                                                    <span class="o_force_ltr">
+                                                        <a href="tel:+352 247 95901">+352 247-95901</a>
+                                                    </span>
+                                                </li>
+                                                <li>Opening hours: 8 am - 4 pm</li>
+                                            </ul>
+
+                                        </div>
+                                        <div id="connect" class="col-lg-3 o_colored_level pt0">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    Terres rouges building
+                                                </li>
+                                                <li>
+                                                14, porte de France
+                                                </li>
+                                                <li>
+                                                L-4360 Esch-sur-Alzette
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </section>
+                </div>
+            <div class="o_footer_copyright o_colored_level o_cc" data-name="Copyright">
+                        <div class="container py-3">
+                            <div class="row">
+                                <div class="col-8 sub-footer">
+                <ul class="list-unstyled">
+                    <li><a href="/terms">Terms and Conditions</a></li>
+                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="/cookie-policy">Cookie Policy</a></li>
+                    <li><a href="/legal">Legal</a></li>
+                    <li><a href="/accessibility-statement">Accessibility</a></li>
+                </ul>
+            </div>
+        <div class="col-sm text-center text-sm-end o_not_editable">
+        <div class="o_brand_promotion">
+            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <script id="tracking_code" async="async" src="https://www.googletagmanager.com/gtag/js?id=AW-17870166592"></script>
+            <script id="tracking_code_config">
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('consent', 'default', {
+                    'ad_storage': 'denied',
+                    'ad_user_data': 'denied',
+                    'ad_personalization': 'denied',
+                    'analytics_storage': 'denied',
+                });
+                gtag('js', new Date());
+                gtag('config', 'AW-17870166592');
+                function allConsentsGranted() {
+                    gtag('consent', 'update', {
+                        'ad_storage': 'granted',
+                        'ad_user_data': 'granted',
+                        'ad_personalization': 'granted',
+                        'analytics_storage': 'granted',
+                    });
+                }
+                    allConsentsGranted();
+            </script>
+        
+        </body>
+</html>
