@@ -240,7 +240,8 @@
     <section id="hero" class="d-flex flex-column justify-content-center">
       <div class="container" data-aos="zoom-in" data-aos-delay="100">
         <h1>Tomer Libal</h1>
-        <p>I train financial teams to use AI well.</p>
+        <p style="font-size:13px;color:#94a3b8;margin-bottom:10px;letter-spacing:0.5px;">Training your teams &middot; Building your tools &middot; <a href="https://www.enidia.ai/" target="_blank" rel="noopener" style="color:#149ddd;text-decoration:none;">Enidia AI</a></p>
+        <p>Your team builds a working AI agent.<br>Traceable, cited, auditable.<br>Deployed the same day.</p>
         <p style="font-size:15px;color:#b45309 !important;font-style:italic;margin-top:4px;margin-bottom:0;font-weight:600;">Article 4 is already in force. High-risk obligations by December 2027.</p>
         <p class="hero-tagline">Your teams are already using AI tools. You need to show they use them with documented outputs, clear human checkpoints, traceable reasoning built into every result, and the ability to explain every decision. That is what my training produces — in your environment, with your tools, with proof.</p>
         <div class="social-links" style="margin-top:18px;">
@@ -250,7 +251,7 @@
           <a href="https://www.linkedin.com/in/tomerlibal/"><img src="assets/img/LI.png" alt="LinkedIn profile"></a>
         </div>
         <div style="margin-top:22px;">
-          <a href="https://calendar.app.google/nBgpxMxQivParBup8" target="_blank" rel="noopener" class="hero-cta">Book a 30-minute call</a>
+          <a href="https://calendar.app.google/nBgpxMxQivParBup8" target="_blank" rel="noopener" class="hero-cta">Book a free 1-hour consultation</a>
         </div>
 
         <!-- Credential circles — 4 horizontal -->
@@ -292,124 +293,104 @@
 
           <div class="section-title">
             <h2>Courses</h2>
-            <p>All courses are built around the four EU AI Act obligations: literacy, transparency, human oversight, and traceability. The 10-hour edition is the full course with extensive examples and hands-on exercises. The 6-hour edition covers the same compliance framework with fewer exercises, for participants with prior AI experience. All formats are available in English; questions and discussion in French.</p>
+            <p>Three focused programmes for regulated organisations. Each starts with a free one-hour meeting to understand your environment and adapt the content. All available in English; questions and discussion in French.</p>
           </div>
 
           <style>
             .course-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px 26px; height: 100%; display: flex; flex-direction: column; }
-            .course-sector { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; padding: 3px 10px; border-radius: 20px; margin-bottom: 14px; }
-            .course-sector.general { background: #e7f0fa; color: #1f5fa6; }
-            .course-sector.finance { background: #fef3e2; color: #b45309; }
-            .course-sector.law     { background: #e9f5ee; color: #1e6e3e; }
-            .course-card h4 { font-size: 15px; font-weight: 700; color: #0f2c40; margin-bottom: 10px; line-height: 1.4; }
-            .course-card .course-desc { font-size: 13.5px; color: #475569; line-height: 1.6; flex: 1; }
-            .course-editions { display: flex; gap: 10px; margin-top: 18px; }
-            .edition-pill { flex: 1; border-radius: 8px; padding: 10px 12px; font-size: 12.5px; line-height: 1.45; }
-            .edition-pill .ep-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
-            .edition-pill.full { background: #f0f7ff; border: 1px solid #bfdbfe; }
-            .edition-pill.full .ep-label { color: #1d4ed8; }
-            .edition-pill.advanced { background: #f5f3ff; border: 1px solid #ddd6fe; }
-            .edition-pill.advanced .ep-label { color: #6d28d9; }
-            .edition-pill p { color: #475569; margin: 0; }
-
-            .addon-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 22px 24px; height: 100%; }
-            .addon-card .addon-icon { font-size: 28px; color: #149ddd; margin-bottom: 10px; display: block; }
-            .addon-card h4 { font-size: 15px; font-weight: 700; color: #0f2c40; margin-bottom: 8px; }
-            .addon-card p { font-size: 13.5px; color: #475569; line-height: 1.6; margin: 0; }
-            .addon-badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; padding: 2px 9px; border-radius: 20px; margin-bottom: 12px; background: #f0faf4; color: #1e7e45; border: 1px solid #bbf7d0; }
+            .course-top { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+            .course-tag { font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.7px; padding: 3px 10px; border-radius: 20px; }
+            .course-tag.amber { background: #fef3e2; color: #b45309; }
+            .course-tag.purple { background: #f5f3ff; color: #6d28d9; }
+            .course-tag.blue { background: #e7f0fa; color: #1f5fa6; }
+            .course-tag.gray { background: #f1f5f9; color: #475569; }
+            .course-card h4 { font-size: 16px; font-weight: 700; color: #0f2c40; margin-bottom: 10px; line-height: 1.35; }
+            .course-for { font-size: 11.5px; color: #64748b; margin-bottom: 12px; font-style: italic; }
+            .course-desc { font-size: 13px; color: #475569; line-height: 1.65; flex: 1; margin-bottom: 16px; }
+            .course-outcomes { list-style: none; padding: 0; margin: 0 0 18px 0; }
+            .course-outcomes li { font-size: 11.5px; color: #334155; line-height: 1.5; padding: 4px 0 4px 20px; position: relative; border-bottom: 1px solid #f1f5f9; }
+            .course-outcomes li:last-child { border-bottom: none; }
+            .course-outcomes li::before { content: "✓"; position: absolute; left: 0; color: #1e7e45; font-weight: 700; }
+            .course-link { display: inline-block; font-size: 12px; font-weight: 700; color: #149ddd; text-decoration: none; margin-top: auto; }
+            .course-link:hover { text-decoration: underline; }
           </style>
 
-          <!-- Three main courses — Finance first and featured -->
-          <div class="row g-4 mb-4">
+          <div class="row g-4">
 
             <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="100">
-              <div class="course-card" style="border:2px solid #b45309;position:relative;">
-                <div style="position:absolute;top:-13px;left:20px;background:#b45309;color:#fff;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;padding:3px 12px;border-radius:20px;">Recommended for financial institutions</div>
-                <span class="course-sector finance" style="margin-top:10px;">Finance</span>
-                <h4>Mastering AI Agents in Compliance with the AI Act for Finance</h4>
-                <p class="course-desc">Built for compliance officers, AML analysts, relationship managers, and risk teams. The working example covers an AML transaction monitoring alert: the agent analyses the pattern, retrieves the applicable regulation, and produces a documented assessment memo ready for officer sign-off.</p>
-                <div class="course-editions">
-                  <div class="edition-pill full">
-                    <div class="ep-label">10 hours &middot; For all levels</div>
-                    <p>Full course with step-by-step guidance. No prior AI experience needed. Delivered over two half-days.</p>
-                  </div>
-                  <div class="edition-pill advanced">
-                    <div class="ep-label">6 hours &middot; For AI users</div>
-                    <p>Same content, faster pace. For participants who already use AI tools regularly.</p>
-                  </div>
+              <div class="course-card" style="border-top: 3px solid #b45309;">
+                <div class="course-top">
+                  <span class="course-tag amber">10 hours</span>
+                  <span class="course-tag gray">Finance &amp; Law</span>
+                  <span class="course-tag gray">All levels</span>
                 </div>
+                <h4>AI Agents for Regulated Teams</h4>
+                <p class="course-for">Compliance officers, AML analysts, lawyers, legal ops, risk teams</p>
+                <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;">
+                  <span style="font-size:10px;font-weight:700;padding:3px 10px;border-radius:20px;background:#fef3e2;color:#b45309;">Finance</span>
+                  <span style="font-size:10px;font-weight:700;padding:3px 10px;border-radius:20px;background:#e9f5ee;color:#1e6e3e;">Law</span>
+                  <span style="font-size:10px;font-weight:700;padding:3px 10px;border-radius:20px;background:#e7f0fa;color:#1f5fa6;">Funds</span>
+                  <span style="font-size:10px;font-weight:700;padding:3px 10px;border-radius:20px;background:#f5f3ff;color:#6d28d9;">Consulting</span>
+                </div>
+                <p class="course-desc">Participants build a working AI agent during the session, adapted to their sector, workflows, and regulatory environment. The working example — AML alert, document review, fund reporting, or contract analysis — is chosen in the free one-hour meeting beforehand. Every output cites its source, every step is logged, and no result is acted on before a human has reviewed it.</p>
+                <ul class="course-outcomes">
+                  <li>A working agent built and deployed during the session</li>
+                  <li>Every output traceable to its source document</li>
+                  <li>Human checkpoint wired into every workflow</li>
+                  <li>Certificate and session record for Article 4 compliance</li>
+                </ul>
+                <a href="assets/docs/course-flagship.html" target="_blank" class="course-link">Full course description &rarr;</a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="200">
-              <div class="course-card">
-                <span class="course-sector law">Law</span>
-                <h4>Mastering AI Agents in Compliance with the AI Act for Law</h4>
-                <p class="course-desc">Built for lawyers, paralegals, legal ops, and compliance functions in law firms and in-house legal teams. The working example covers a real document review task: the agent retrieves, analyses, and flags, with a solicitor checkpoint before anything is relied upon or sent.</p>
-                <div class="course-editions">
-                  <div class="edition-pill full">
-                    <div class="ep-label">10 hours &middot; For all levels</div>
-                    <p>Full course with step-by-step guidance. No prior AI experience needed. Delivered over two half-days.</p>
-                  </div>
-                  <div class="edition-pill advanced">
-                    <div class="ep-label">6 hours &middot; For AI users</div>
-                    <p>Same content, faster pace. For participants who already use AI tools regularly.</p>
-                  </div>
+              <div class="course-card" style="border-top: 3px solid #6d28d9;">
+                <div class="course-top">
+                  <span class="course-tag purple">3 hours</span>
+                  <span class="course-tag gray">Follow-on</span>
+                  <span class="course-tag gray">Intermediate</span>
                 </div>
+                <h4>AI in Practice: Supervised Build Workshop</h4>
+                <p class="course-for">Teams who have completed the flagship course and have a specific tool to build</p>
+                <p class="course-desc">You bring a specific workflow or problem from your environment. We build the tool together during the session under trainer supervision, with verification-first principles applied throughout. You leave with a tested, deployed solution your team owns completely.</p>
+                <ul class="course-outcomes">
+                  <li>A working tool built around your specific workflow</li>
+                  <li>Full documentation for independent maintenance</li>
+                  <li>No vendor dependency: runs in your own environment</li>
+                  <li>Session record suitable for internal audit</li>
+                </ul>
+                <a href="assets/docs/course-workshop.html" target="_blank" class="course-link">Full course description &rarr;</a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="300">
-              <div class="course-card">
-                <span class="course-sector general">General</span>
-                <h4>Mastering AI Agents in Compliance with the AI Act</h4>
-                <p class="course-desc">For any team adopting AI: public bodies, NGOs, education, and mixed corporate groups. Participants learn to build and operate compliant AI agents using the tools already available in their environment, with every output traceable and a defined human checkpoint before anything is used.</p>
-                <div class="course-editions">
-                  <div class="edition-pill full">
-                    <div class="ep-label">10 hours &middot; For all levels</div>
-                    <p>Full course with step-by-step guidance. No prior AI experience needed. Delivered over two half-days.</p>
-                  </div>
-                  <div class="edition-pill advanced">
-                    <div class="ep-label">6 hours &middot; For AI users</div>
-                    <p>Same content, faster pace. For participants who already use AI tools regularly.</p>
-                  </div>
+              <div class="course-card" style="border-top: 3px solid #1f5fa6;">
+                <div class="course-top">
+                  <span class="course-tag blue">5 hours</span>
+                  <span class="course-tag gray">Executive level</span>
+                  <span class="course-tag gray">No technical background needed</span>
                 </div>
+                <h4>AI Governance for Senior Management</h4>
+                <p class="course-for">CEOs, CCOs, Heads of Legal, Managing Partners, Chief Risk Officers</p>
+                <p class="course-desc">No hands-on building. Designed for leaders who need to evaluate what their teams, employees, and subcontractors produce with AI — and hold them to a standard. You leave knowing what compliant AI output must contain, what to demand, and what to reject.</p>
+                <ul class="course-outcomes">
+                  <li>Ability to evaluate any AI tool your teams or subcontractors bring you</li>
+                  <li>Framework for what compliant output must contain</li>
+                  <li>EU AI Act deployer obligations in plain language</li>
+                  <li>Confidence to answer your regulator, board, or auditors</li>
+                </ul>
+                <a href="assets/docs/course-management.html" target="_blank" class="course-link">Full course description &rarr;</a>
               </div>
             </div>
 
           </div>
 
-          <div style="text-align:center;margin-bottom:32px;">
-            <a href="assets/docs/programme_overview.html" target="_blank" rel="noopener" style="display:inline-block;padding:10px 28px;border:1.5px solid #b45309;border-radius:6px;color:#b45309;font-size:13px;font-weight:700;text-decoration:none;">Download programme overview</a>
-          </div>
-
-          <!-- Add-on formats -->
-          <div class="row g-4">
-
-            <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="100">
-              <div class="addon-card">
-                <span class="addon-badge">3 hours</span>
-                <i class="bx bx-wrench addon-icon"></i>
-                <h4>AI in Practice Workshop</h4>
-                <p>A focused 3-hour session built around a concrete case your team brings. Participants work through a real task end to end using their own AI environment, with the trainer guiding the process and surfacing the compliance implications as they arise. Ideal as a follow-up to the main course or as a standalone deep-dive for a specific workflow.</p>
-              </div>
-            </div>
-
-            <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="200">
-              <div class="addon-card">
-                <span class="addon-badge">5 hours</span>
-                <i class="bx bx-buildings addon-icon"></i>
-                <h4>AI Act and Change Management for Managers</h4>
-                <p>For executives, CCOs, legal referents, and anyone responsible for rolling out AI in an organisation. No hands-on exercises: this session focuses on what the AI Act requires of the organisation as a whole, how to structure a compliant rollout, and what to put in place ahead of the December 2027 high-risk deadline. Combines regulatory literacy with practical change management for corporate adoption.</p>
-              </div>
-            </div>
-
-          </div>
-
-          <p style="text-align:center;margin-top:28px;font-size:13.5px;color:#475569;">All courses are delivered in-house, at your premises, for your team. House of Training and Digital Learning Hub, Luxembourg, host public versions of these courses. Pricing and scheduling on request.</p>
-          <div style="text-align:center;margin-top:14px;">
+          <div style="text-align:center;margin-top:32px;">
+            <a href="assets/docs/programme_overview.html" target="_blank" rel="noopener" style="display:inline-block;padding:10px 28px;border:1.5px solid #b45309;border-radius:6px;color:#b45309;font-size:13px;font-weight:700;text-decoration:none;margin-right:12px;">Download programme overview</a>
             <a href="#contact" class="hero-cta" style="margin-top:0;">Enquire about a course</a>
           </div>
+
+          <p style="text-align:center;margin-top:20px;font-size:13px;color:#475569;">All courses are delivered in-house, at your premises, for your team. House of Training and Digital Learning Hub, Luxembourg, host public versions of these courses. Pricing and scheduling on request.</p>
 
         </div>
       </section><!-- End Courses Section -->
@@ -485,7 +466,7 @@
           </div>
 
           <div style="text-align:center;margin-top:28px;">
-            <a href="#contact" class="hero-cta" style="margin-top:0;">Book a 30-minute call</a>
+            <a href="https://calendar.app.google/nBgpxMxQivParBup8" target="_blank" rel="noopener" class="hero-cta" style="margin-top:0;">Book a free 1-hour consultation</a>
           </div>
 
         </div>
@@ -497,14 +478,20 @@
 
           <div class="section-title">
             <h2>How I Work</h2>
-            <p>Every engagement starts with training. Depending on what your organisation needs next, it continues in one of two directions.</p>
+            <p>Every engagement starts with a free conversation to understand your environment. No generic presentation.</p>
           </div>
 
           <div data-aos="fade-up">
 
+            <div class="hiw-level level-1" style="border-left-color:#1e7e45;">
+              <div class="hiw-level-num">Step 0 &mdash; always free</div>
+              <h4>One hour to understand your context</h4>
+              <p>Before any training or engagement begins, I spend one hour with you to understand your organisation's environment, tools, workflows, and regulatory context. The course content and working examples are adapted accordingly. This meeting costs nothing and commits you to nothing.</p>
+            </div>
+
             <div class="hiw-level level-1">
               <div class="hiw-level-num">Step 1 &mdash; always</div>
-              <h4>Training: your team learns to maximise AI, compliantly</h4>
+              <h4>Training: your team leaves with a working agent, not just knowledge</h4>
               <p>I train your teams to get the most out of the AI tools they already have, starting with the standard chatbots available in your environment (Mistral Le Chat, Copilot, or similar). Every session is built around full GDPR compliance and the four obligations of the EU AI Act: literacy, transparency, human oversight, and traceability. By the end, your team does not just use AI; they use it responsibly, and you have documented proof of compliance with Article 4.</p>
             </div>
 
@@ -526,7 +513,7 @@
             </div>
 
             <div style="text-align:center;margin-top:18px;">
-              <a href="#contact" class="hero-cta" style="margin-top:0;">Book a 30-minute call</a>
+              <a href="https://calendar.app.google/nBgpxMxQivParBup8" target="_blank" rel="noopener" class="hero-cta" style="margin-top:0;">Book a free 1-hour consultation</a>
             </div>
           </div>
 
@@ -683,7 +670,14 @@
 
           <div class="section-title">
             <h2>Built to Be Trusted</h2>
-            <p>Standard AI tools produce outputs with no indication of whether they are correct. In regulated environments, an unverified output is a liability. This is the standard I build to.</p>
+            <p>Standard AI tools produce outputs with no indication of whether they are correct. In regulated environments, an unverified output is a liability. Every system I build and every course I deliver follows a verification-first principle: every output cites its source, every step is logged, and nothing reaches a decision-maker without a chain of evidence they can read and check.</p>
+          </div>
+
+          <div style="text-align:center;margin-bottom:28px;">
+            <div style="display:inline-block;background:#fdf8f2;border:2px solid #b45309;border-radius:12px;padding:16px 36px;">
+              <div style="font-size:36px;font-weight:800;color:#b45309;line-height:1;">84%</div>
+              <div style="font-size:12px;color:#475569;margin-top:4px;">reduction in document processing time<br>at a top-10 international law firm</div>
+            </div>
           </div>
 
           <div class="hiw-example" data-aos="fade-up">
@@ -704,6 +698,64 @@
 
         </div>
       </section><!-- End Trust Section -->
+
+      <!-- ======= Enidia Section ======= -->
+      <section id="enidia" class="services">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>Bespoke AI Solutions</h2>
+            <p>Training is where teams learn to use AI. <a href="https://www.enidia.ai/" target="_blank" rel="noopener" style="color:#149ddd;font-weight:600;">Enidia AI</a> is where we build it for them — verification-first, on-premise, for regulated sectors.</p>
+          </div>
+
+          <style>
+            .enidia-intro { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px 28px; margin-bottom: 28px; font-size: 13.5px; color: #334155; line-height: 1.7; }
+            .enidia-intro strong { color: #0f2c40; }
+            .enidia-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 22px 24px; height: 100%; }
+            .enidia-card .ei-icon { font-size: 26px; color: #149ddd; margin-bottom: 10px; display: block; }
+            .enidia-card h4 { font-size: 14px; font-weight: 700; color: #0f2c40; margin-bottom: 8px; }
+            .enidia-card p { font-size: 13px; color: #475569; line-height: 1.65; margin: 0; }
+            .enidia-stat { text-align: center; background: #fdf8f2; border: 1px solid #f4d8a0; border-radius: 10px; padding: 20px; }
+            .enidia-stat .stat-num { font-size: 38px; font-weight: 800; color: #b45309; line-height: 1; }
+            .enidia-stat .stat-label { font-size: 11.5px; color: #475569; margin-top: 6px; line-height: 1.5; }
+          </style>
+
+          <div class="enidia-intro">
+            <strong>Enidia AI</strong> is a Luxembourg-based company that combines LLMs with software engineering to build bespoke, on-premise AI pipelines for law firms and financial institutions. Every system follows the same verification-first principle as the training: outputs that cite their source, reasoning that is logged and auditable, and human checkpoints that are built into the architecture — not bolted on afterwards. Your documents never leave your walls.
+          </div>
+
+          <div class="row g-4 mb-4">
+
+            <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="100">
+              <div class="enidia-card">
+                <i class="bx bx-code-alt ei-icon"></i>
+                <h4>Bespoke AI Pipelines</h4>
+                <p>Built specifically for your environment, your documents, and your workflows. On-premise, on open-weight models. No vendor dependency, no token costs, no documents leaving your infrastructure. Designed to satisfy CSSF, AML, and EU AI Act requirements from the ground up.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="200">
+              <div class="enidia-card">
+                <i class="bx bx-transfer ei-icon"></i>
+                <h4>Migration from Cloud AI Tools</h4>
+                <p>Teams using Harvey, Leora, Copilot, or similar cloud tools face token costs, data residency risk, and vendor dependency. We migrate these workflows to on-premise open-weight models — keeping the capability, removing the exposure. Your team keeps what they built; the documents stay inside.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="300">
+              <div class="enidia-stat" style="display:flex;flex-direction:column;justify-content:center;height:100%;">
+                <div class="stat-num">84%</div>
+                <div class="stat-label">reduction in document processing time<br>at a top-10 international law firm<br><br><em style="font-size:11px;">Verification-first pipeline built by Enidia AI</em></div>
+                <div style="margin-top:16px;">
+                  <a href="https://www.enidia.ai/" target="_blank" rel="noopener" style="font-size:12px;font-weight:700;color:#149ddd;text-decoration:none;">Visit enidia.ai &rarr;</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Enidia Section -->
 
       <!-- ======= Portfolio Section ======= -->
       <section id="portfolio" class="portfolio section-bg">
@@ -971,7 +1023,7 @@
                 el.appendChild(a);
               })();
             </script>
-            <p style="margin-top:18px;"><a href="https://calendar.app.google/nBgpxMxQivParBup8" target="_blank" rel="noopener" class="hero-cta">Book a 30-minute call</a></p>
+            <p style="margin-top:18px;"><a href="https://calendar.app.google/nBgpxMxQivParBup8" target="_blank" rel="noopener" class="hero-cta">Book a free 1-hour consultation</a></p>
           </div>
 
           <div class="row mt-1">
