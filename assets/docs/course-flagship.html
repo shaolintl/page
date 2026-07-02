@@ -66,12 +66,12 @@
   Your teams are already using AI tools. This course trains them to use AI in a way that is documented, explainable, and traceable — satisfying EU AI Act Article 4, which is already in force, and preparing for the high-risk obligations due by December 2027. Every participant builds a working AI agent during the session, adapted to their actual workflows. They leave with something they can use the same day.
 </div>
 
-<div class="section-label">The four pillars — EU AI Act obligations this course satisfies</div>
+<div class="section-label">The four pillars — EU AI Act obligations (all share Literacy, Article 4)</div>
 <div class="box">
-  <div class="step-row"><div class="step-num" style="background:#1f5fa6;">1</div><div class="step-text"><strong>Literacy</strong> — understanding how AI tools work, where they are reliable, and where human judgement is required. Includes prompt engineering: how to communicate clearly with AI systems to get consistent, usable outputs. This is Article 4 of the EU AI Act — already in force.</div></div>
-  <div class="step-row"><div class="step-num" style="background:#b45309;">2</div><div class="step-text"><strong>Transparency</strong> — making clear that AI is involved, and producing outputs that users and affected persons can understand, question, and verify. Every conclusion cites the source it drew from and explains why the AI reached it.</div></div>
-  <div class="step-row"><div class="step-num" style="background:#1e6e3e;">3</div><div class="step-text"><strong>Human oversight</strong> — structuring workflows so a human can monitor, verify, and intervene at each step. Not just approving a final output: understanding and checking what the agent did at every stage before anything is acted on.</div></div>
-  <div class="step-row"><div class="step-num" style="background:#6d28d9;">4</div><div class="step-text"><strong>Traceability</strong> — every output cites the source it drew from. The full chain of reasoning is logged and auditable. Session records are produced in a format ready for a regulator, auditor, or internal review.</div></div>
+  <div class="step-row"><div class="step-num" style="background:#1f5fa6;">1</div><div class="step-text"><strong>Prompt Engineering — Literacy.</strong> How to communicate with AI systems to get consistent, usable, and safe outputs. Understanding where AI is reliable and where human judgement is required. All four pillars build on this foundation. This is Article 4 of the EU AI Act — already in force since February 2025.</div></div>
+  <div class="step-row"><div class="step-num" style="background:#b45309;">2</div><div class="step-text"><strong>Data Analysis — Human Oversight.</strong> How to interpret, question, and supervise what an AI system does with data. Participants learn to read AI outputs critically, identify errors, and build workflows where a human reviews and approves before anything is acted on.</div></div>
+  <div class="step-row"><div class="step-num" style="background:#1e6e3e;">3</div><div class="step-text"><strong>RAG (Retrieval-Augmented Generation) — Traceability.</strong> How to force an AI agent to ground every output in a source document — retrieving before generating. Every conclusion cites the document, section, and page it drew from. The full retrieval chain is logged and auditable.</div></div>
+  <div class="step-row"><div class="step-num" style="background:#6d28d9;">4</div><div class="step-text"><strong>Agents — Transparency.</strong> How to build autonomous multi-step AI systems that are explainable at every step. Participants build an agent that logs each action, exposes its reasoning, and produces outputs a regulator, auditor, or decision-maker can read and verify. High-risk obligations due August 2026/2027 (December 2027 under the proposed Omnibus extension).</div></div>
 </div>
 
 <div class="section-label">Sector working examples</div>
@@ -100,24 +100,24 @@
 </div>
 <div id="tab-fin" class="tab-panel fin active">
   <strong>AML transaction monitoring alert</strong><br><br>
-  <div class="ex-step"><span class="ex-label">Input</span>Six cash deposits below the identification threshold, flagged for review.</div>
-  <div class="ex-step"><span class="ex-label">Agent</span>Retrieves the applicable AML regulation, analyses the structuring pattern, drafts an assessment memo with every claim cited to its source document.</div>
-  <div class="ex-step"><span class="ex-label">Checkpoint</span>Compliance officer reviews memo and all citations before any filing decision is taken.</div>
+  <div class="ex-step"><span class="ex-label">Input</span>A series of cash deposits, each below EUR 15,000, that individually do not trigger identification obligations but collectively suggest a structuring pattern, flagged for review.</div>
+  <div class="ex-step"><span class="ex-label">Agent</span>Retrieves the applicable AML regulation, analyses the structuring pattern, drafts an internal assessment memo with every claim cited to its source document.</div>
+  <div class="ex-step"><span class="ex-label">Checkpoint</span>Compliance officer reviews the memo and all citations before any internal escalation or STR filing decision to the CRF (Cellule de Renseignement Financier).</div>
   <div class="ex-step"><span class="ex-label">Output</span>Documented assessment, full audit trail, ready for CSSF inspection. Designed for compliance officers, AML analysts, relationship managers, and risk teams.</div>
 </div>
 <div id="tab-law" class="tab-panel law">
   <strong>Contract or legal document review</strong><br><br>
   <div class="ex-step"><span class="ex-label">Input</span>A contract or legal document requiring review for key clauses, obligations, or risk flags.</div>
   <div class="ex-step"><span class="ex-label">Agent</span>Retrieves, reads, and flags relevant clauses; identifies obligations and risk provisions; drafts a structured review memo with every finding cited to the source passage.</div>
-  <div class="ex-step"><span class="ex-label">Checkpoint</span>Solicitor reviews memo and all citations before anything is relied upon or sent to the client.</div>
+  <div class="ex-step"><span class="ex-label">Checkpoint</span>The lawyer reviews the memo and all citations. The agent output is a working draft; the lawyer's review constitutes the professional act before anything is relied upon or sent to the client.</div>
   <div class="ex-step"><span class="ex-label">Output</span>Cited review memo, full chain of evidence. Designed for lawyers, paralegals, and legal ops teams.</div>
 </div>
 <div id="tab-fund" class="tab-panel fund">
-  <strong>CSSF regulatory reporting — sub-fund classification</strong><br><br>
-  <div class="ex-step"><span class="ex-label">Input</span>A fund prospectus with multiple sub-funds requiring classification and reporting under CSSF requirements.</div>
-  <div class="ex-step"><span class="ex-label">Agent</span>Reads the prospectus, identifies each sub-fund's investment policy and risk profile, maps them to the applicable CSSF reporting categories, and drafts the structured report with every classification cited to the relevant prospectus section.</div>
-  <div class="ex-step"><span class="ex-label">Checkpoint</span>Fund officer or legal counsel reviews the draft and all citations before submission.</div>
-  <div class="ex-step"><span class="ex-label">Output</span>CSSF-ready report, fully traceable to the prospectus. Designed for fund administrators, legal teams, and compliance officers in asset management.</div>
+  <strong>CSSF sub-fund notification survey — pre-filling from prospectus</strong><br><br>
+  <div class="ex-step"><span class="ex-label">Input</span>A fund prospectus (PDF) for a new sub-fund requiring CSSF approval, and the CSSF sub-fund survey Excel form with required fields covering general information, investment policy, portfolio managers, and targeted investors.</div>
+  <div class="ex-step"><span class="ex-label">Agent</span>Reads the prospectus, extracts the data required for each survey field (fund name, governing law, SFDR classification, investment policy type, base currency, NAV frequency, portfolio manager details, etc.), and pre-fills the form with every field cited to the exact prospectus section it was drawn from.</div>
+  <div class="ex-step"><span class="ex-label">Checkpoint</span>Fund administrator or legal counsel reviews each pre-filled field and its citation before submitting the form to the CSSF.</div>
+  <div class="ex-step"><span class="ex-label">Output</span>A pre-filled CSSF survey with full traceability from every field back to the prospectus. Designed for fund administrators, legal teams, and compliance officers preparing sub-fund notifications.</div>
 </div>
 <div id="tab-con" class="tab-panel con">
   <strong>Due diligence document review</strong><br><br>
